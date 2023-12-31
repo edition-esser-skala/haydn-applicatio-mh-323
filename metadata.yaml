@@ -1,0 +1,20 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Applicatio
+id: MH 323
+genre: cantata
+scoring: S, 2 A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (G), 2 clno (), 2 v, vla, b, cemb
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: GB-Lbm
+    shelfmark: Add. 32.173
+    date: 1782-08-24
+    url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
+    license: public domain
+    principal: true
+imslp:
+parts:
+  cor12: Corno I, II in C
+  clno12: Clarino I, II in C
