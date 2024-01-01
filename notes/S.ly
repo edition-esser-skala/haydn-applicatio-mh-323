@@ -16,7 +16,7 @@ CanticumSoprano = {
     a' a8([ d)] h g
     fis4( e) d r
     R1*3 %35
-    h'4(^\markup \remark "Levita 1:mus" d) h8 h h h
+    h'4(^\LevitaPrimus d) h8 h h h
     h4 h h8 h h h
     h4 a c h
     a4. a8 g4 r
@@ -59,7 +59,7 @@ CanticumSoprano = {
     a4 a8 a h4 e,
     g( fis) e r
     R1*12 %89
-    h'2(^\markup \remarkE "Levita 1:mus" d) %90
+    h'2(^\LevitaPrimusE d) %90
     h8. h16 h8 h h8. h16 h4
     h4. h8 h4 r
     a4 c2 h4

@@ -5,7 +5,7 @@ CanticumTenore = {
     \clef "treble_8"
     \key g \major \time 4/4 \autoBeamOff \tempoCanticum
     R1*4
-    h4(\fE d) h8^\markup \remark "Sacerdos 2:dus" h h h %5
+    h4(\fE d) h8^\SacerdosSecundus h h h %5
     h h h4 h r8 h
     h4 a c h8 h
     a4. a8 g4 r
@@ -60,7 +60,7 @@ CanticumTenore = {
     g( fis) e r
     R1
     r2 h'4( d)
-    h^\markup \remarkE "Sacerdos 2:dus" h8 h h4 h %80
+    h^\SacerdosSecundusE h8 h h4 h %80
     h8. h16 h4 r h8 h
     h h a4 c h
     a4. a8 g4 r

@@ -143,3 +143,55 @@ CanticumViolinoI = {
     <g h, d,> d h d <g h, d,>4 r\fermata \bar "|." %137 finis
   }
 }
+
+IamScenaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIamScena
+    \after 8 \p e'1
+    a,
+    dis~
+    dis
+    \tempoIamScenaB e8 e, e e \appoggiatura g16 f!8 f16.\f f32 f8 f %5
+    \after 8 \p e1
+    g~
+    g2 h
+    d1
+    r8 c e,32( g16.) f32( a16.) g32( b16.) b\f b32 b8 b %10
+    \after 8 \p a1
+    g
+    cis
+    r16 f cis( e) d b(\f a) g-! f f'\p cis( e) d b(\f a) g-!
+    f4 r r2 %15
+    \after 8 \p b1~
+    b2 r4 a8 a
+    a4 r c2~
+    c r8 b16.\f b32 a8 a'16. a32
+    b4 r b,2\p %20
+    g1
+    r4 r8 e'\f f4 \tuplet 3/2 8 { a,16[ g f] e d c }
+    \after 8 \p g'1
+    h!
+    c2 g4\f r %25
+    fis r \after 8 \p a2~
+    a gis~
+    gis1~
+    gis2 d'~
+    d1~ %30
+    d2 a8\f \tuplet 3/2 8 { c16 h a gis[ fis e] h' a gis }
+    a4 r b2~\p
+    b r8 a\f c4~
+    c2\p r8 h!\f \noBeam g' r\fermata
+    g,1\p %35
+    b
+    \key b \major b8. g16 es'( d) c( b) b8.\fz c16 b8-! \tuplet 3/2 8 { es16(\p b) g-! }
+    \appoggiatura g8 f8. c'16 \appoggiatura es,8 d8. f16\f as,4( g8) r
+    r2 f'~\p
+    f f8. d16 b'( a) g( f) %40
+    f8.\fz g16 f8-! \tuplet 3/2 8 { b'16(\p f) d-! } \appoggiatura d8 c8. g'16 \appoggiatura b,8 a8. c16\f
+    es,4( d8) r r2
+    f\p g
+    a2. r4
+    r r8 <es a>\f <d b'>4 r\fermata \bar "|." %45 finis
+}
+}

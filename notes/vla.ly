@@ -143,3 +143,55 @@ CanticumViola = {
     g8 d h d g4 r\fermata \bar "|." %137 finis
   }
 }
+
+IamScenaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoIamScena
+    \after 8 \p gis1
+    c
+    h~
+    h
+    \tempoIamScenaB h8 r r4 r8 d!16.\f d32 d8 d %5
+    \after 8 \p g,1
+    c~
+    c2 f
+    g,1
+    g4 r r8 g'16.\f g32 g8 g %10
+    \after 8 \p c,1
+    e
+    e,
+    f8 r r16 g(\f a) b-! a8 r r16 g( a) b-!
+    a4 r r2 %15
+    \after 8 \p e'1~
+    e2 r4 f8 f
+    f4 r es2~
+    es r8 b16.\f b32 c8 c'16. c32
+    f,4 r f2\p %20
+    c1
+    r4 r8 c\f c4 \tuplet 3/2 8 { a'16[ g f] e d c }
+    \after 8 \p g1
+    d'
+    g,2 b4\f r %25
+    a r \after 8 \p dis2~
+    dis e~
+    e1~
+    e2 f!~
+    f1~ %30
+    f2 a,8\f \tuplet 3/2 8 { c'16 h a gis[ fis e] d c h }
+    a4 r c2~\p
+    c r8 c\f c4~
+    c2\p r8 d\f \noBeam d r\fermata
+    b1\p %35
+    d
+    \key b \major es8 g, r es' f4\fz b,8 b\p
+    as4 f8. as16\f f4( es8) r
+    r2 c'~\p
+    c b8 b r b
+    c4\fz f,8 f'\p es4 c
+    r8 a(\f b) r r2
+    b\p b
+    c2. r4
+    r r8 f,\f f4 r\fermata \bar "|."
+  }
+}

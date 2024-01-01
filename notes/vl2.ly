@@ -143,3 +143,55 @@ CanticumViolinoII = {
     <g h, d,> d h d <g h, d,>4 r\fermata \bar "|." %137 finis
   }
 }
+
+IamScenaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIamScena
+    \after 8 \p h'1
+    e,
+    fis~
+    fis
+    \tempoIamScenaB e8 r r4 r8 h16.\f h32 h8 h %5
+    \after 8 \p c1
+    e~
+    e2 g
+    f1
+    r8 e c32( e16.) d32( f16.) e32( g16.) e\f e32 e8 e %10
+    \after 8 \p f1
+    cis
+    g'
+    a8 r r16 cis,(\f d) e-! d8 r r16 cis( d) e-!
+    d4 r r2 %15
+    \after 8 \p g1~
+    g2 r4 c,8 c
+    c4 r f2~
+    f r8 f16.\f f32 es8 es'16. es32
+    d4 r d,2\p %20
+    e!1
+    r4 r8 << { b' a4 } \\ { g8\f f4 } >> \tuplet 3/2 8 { a16[ g f] e d c }
+    \after 8 \p d1
+    f
+    e2 e4\f r %25
+    d r \after 8 \p fis2~
+    fis h,~
+    h1~
+    h2 h'~
+    h1~ %30
+    h2 e,8\f \tuplet 3/2 8 { c'16 h a gis[ fis e] f e d }
+    e4 r g2~\p
+    g r8 f\f fis4~
+    fis2\p r8 g\f \noBeam h! r\fermata
+    d,1\p %35
+    as'
+    \key b \major g8 b, r g' as4\fz g8-! es\p
+    c4 as r8 d(\f es) r
+    r2 es~\p
+    es d8 d r d %40
+    es4\fz d8 b\p g'4 es8. es16\f
+    c4( b8) r r2
+    d\p es
+    f2. r4
+    r r8 c\f b4 r\fermata \bar "|." %45 finis
+  }
+}

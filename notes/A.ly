@@ -16,7 +16,7 @@ CanticumAlto = {
     a e'8 e d4 d8 e
     d4( cis) d r
     R1*3 %35
-    h'4(^\markup \remark "Levita 2:dus" d) h8 h h h
+    h'4(^\LevitaSecundus d) h8 h h h
     h4 h h8 h h h
     h4 a c h
     a4. a8 g4 r
@@ -59,7 +59,7 @@ CanticumAlto = {
     a4 a8 a h4 e,
     g( fis) e r
     R1*12 %89
-    h'2(^\markup \remarkE "Levita 2:dus" d) %90
+    h'2(^\LevitaSecundusE d) %90
     h8. h16 h8 h h8. h16 h4
     h4. h8 h4 r
     a c2 h4

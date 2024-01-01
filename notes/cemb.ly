@@ -283,3 +283,103 @@ CanticumBassFigures = \figuremode {
   <6>4 <7>2.
   r %137 finis
 }
+
+IamScenaCembalo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoIamScena
+    \after 8 \p gis1
+    c
+    h~
+    h
+    \tempoIamScenaB g8 r r4 r8 g16.\f g32 g8 g %5
+    \after 8 \pE c1~
+    c~
+    c2 d
+    h1
+    c4 r r8 c16.\f c32 c8 c %10
+    \after 8 \p f1
+    e
+    a,
+    d8 r r16 e(\f f) cis-! d8 r r16 e( f) cis-!
+    d4 r r2 %15
+    \after 8 \p c!1~
+    c2 r4 f8 f
+    f4 r a,2~
+    a b8 d'16.\f d32 c8 f,16. f32
+    b4 r b2\p %20
+    b,1
+    r4 r8 c\f f4 \tuplet 3/2 8 { a16[ g f] e d c }
+    \after 8 \p h!1
+    g
+    c2 cis4\f r %25
+    c r \after 8 \p h!2~
+    h d!~
+    d1~
+    d2 gis,~
+    gis1~ %30
+    gis2 c8\f \tuplet 3/2 8 { c'16 h a gis[ fis e] d c h }
+    c4 r e2~\p
+    e r8 f\f a4~
+    a2\p r8 g\f \noBeam g, r\fermata
+    g'1\p %35
+    f
+    \key b \major es8 es, r es' d4\fz es8 g,\p
+    as4 b r8 b\f es r
+    r2 a,!~\p
+    a b8 b r b %40
+    a4\fz b8 d\p es4 f
+    r8 f,\f b r r2
+    b2\p es
+    es2. r4
+    r r8 f\f b,4 r\fermata \bar "|." %45 finis
+  }
+}
+
+IamScenaBassFigures = \figuremode {
+  <6>1
+  q
+  <5\+ _+>
+  r
+  <6>2 r8 <7! 5!>4. %5
+  r1
+  r
+  r2 <4 3>
+  <6 5>1
+  r2 r8 <7->4. %10
+  r1
+  <6\\>
+  <7 _+>
+  r4 r16 <6\\ 5-> <6> <7-> r4 r16 <6\\ 5-> <6> <7->
+  r1 %15
+  <7->
+  r
+  r2 <6 5->
+  r2 r8 <6-> <6 _-> <7->
+  r1 %20
+  <4! 2>
+  r4. <7->8 r2
+  <6>1
+  <7>
+  r2 <7-> %25
+  <4\+ 2> <7 5\+ _+>
+  r <4\+ 2>
+  r1
+  r2 <7!>
+  r1 %30
+  r2 <6>8 <1>16*2/3 q q q q q <6 _!> <6> <6\\>
+  <6>2 <6 5- _!>
+  r2. <6\\>4
+  r2 r8 <_!>4.
+  <_->1 %35
+  <6 4- _->
+  r2 <6 5->4. <6>8
+  <7> <6> <7- 4> <\t 3>4 <7->4.
+  r2 <6 5>
+  r1 %40
+  <6 5>4. <6>8 <7> <6> <7 4> <\t 3>
+  r <7>2..
+  r1
+  <2>
+  r4. <7>8 r2 %45 finis
+}
