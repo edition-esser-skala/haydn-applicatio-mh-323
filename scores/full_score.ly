@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "0" "Figura" "Canticum in Tono peregrino"
-    % \addTocEntry
+    \addTocLabel "Canticum"
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -48,7 +48,7 @@
           }
         >>
         \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "L E V I T Æ   &   S A C E R D O T E S" \hspace #10 }
+          \set ChoirStaff.instrumentName = \markup \center-column { "Levitæ" " " " " " " " " " " " " " " " " "Sacerdotes" }
           \new Staff {
             \incipit "" "soprano" #0 #-1.8
             \new Voice = "Soprano" { \dynamicUp \CanticumSoprano }
