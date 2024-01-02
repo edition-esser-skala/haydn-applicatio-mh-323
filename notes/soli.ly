@@ -48,7 +48,7 @@ IamScenaSoli = {
     r4 r8 f b4 b
     d8. b16 b8 f g16 g g8 r16 g f es
     a8 a r4 es'8. a,16 a8 a16 b
-    b8 f r4 r2\fermata \bar "|." %45 finis
+    b8 f r4 r2\fermata \bar "||" %45 finis
   }
 }
 
@@ -98,4 +98,238 @@ IamScenaSoliLyrics = \lyricmode {
   O -- pti -- mo ac -- ci -- ni -- te, quot -- quot ad --
   e -- stis, e -- pi -- ni -- ci -- a
   DE -- o. %45 finis
+}
+
+AdesteSoli = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoAdeste
+    \partial 8 r8 R2*14 %14
+    r4 r8 \mvTr f\pE^\soloE %15
+    f8. d16 b'([ a)] g([ f)]
+    f8. g16 f8 b
+    c,8. g'16 g([ f)] f([ es)]
+    es8 d r f
+    f8. d16 b'([ a)] g([ f)] %20
+    f8. g16 f8 fis
+    g8. es'16 \appoggiatura d c8 d16([ b)]
+    b8 a r c
+    c, c c c
+    c8. b'16 a8 a16([ f)] %25
+    c'8 c, c c
+    c([ b')] a r
+    R2
+    r4 r8 a
+    a16([ g)] g([ f)] f8. c'16 %30
+    c16([ b)] b([ a)] a8 c,
+    f4 b
+    a d8. d16
+    \appoggiatura d c8 b16([ a)] a([ g)] b([ g)]
+    f4( g)\trill %35
+    f r8 b
+    \tuplet 3/2 8 { a16([ g f)] } f8 r b
+    \tuplet 3/2 8 { a16([ g f)] } f8 r c
+    f4 e
+    d c %40
+    b'16 a b8 r c,
+    f4 b
+    a d8. d16
+    \appoggiatura d c8 b16([ a)] d([ d,)] b'([ g)]
+    f4( g)\trill %45
+    f r
+    R2*7 %53
+    r4 r8 c'
+    a a a8. f16 %55
+    b b b8 r b16 f
+    es8 es r c'16 es,
+    d d d8 r b'
+    g g g8. b16
+    g8 g r g %60
+    d'2~
+    d~
+    d
+    d,4 r8 f!
+    f8. d16 b'([ a)] g([ f)] %65
+    f8. g16 f8 b
+    c,8. g'16 g([ f)] f([ es)]
+    es8 d r f
+    f8. d16 b'([ a)] g([ f)]
+    f8. g16 f8 g %70
+    as8. c16 c([ b)] b([ as)]
+    g4 r16 g[ a b]
+    c[ d es d] c[ b a g]
+    f4 r16 f[ g a]
+    b[ c d c] b[ a g f] %75
+    es4 r16 es[ c' b]
+    a[ b a g] f[ g f es]
+    d[ f b8.] a16[ c es,]
+    d[ f b8.] a16[ c es,]
+    d[ f8 d' c b16] %80
+    \tuplet 3/2 8 { a[ g f] } f8 r f
+    b b b b
+    c8. a16 b8 f
+    b b b b
+    c8.([ a16)] b8 r %85
+    R2
+    r4 r8 f
+    es'16([ d)] d([ c)] c8. f,16
+    f([ b)] b([ d)] d8. f,16
+    es'([ d)] d([ c)] c8. f,16 %90
+    f8([ b)] d f,
+    b,4 es
+    d g8. g16
+    \appoggiatura g f8 es16([ d)] d([ c)] es'([ c)]
+    b4( c)\trill %95
+    b r8 f
+    b f r f
+    b f r f
+    b b b as
+    as8. g16 g8 g %100
+    b b b8. g16
+    g4 f8 f
+    f8. d16 b'([ a!)] g([ f)]
+    f8. g16 f8 fis
+    g8. es'16 \appoggiatura d c8 d16([ b)] %105
+    b8 a r f
+    b b b b
+    c8. a16 b8 f
+    b b b b
+    c8.([ a16)] b8 r %110
+    R2
+    r4 r8 f
+    es'16([ d)] d([ c)] c8. f,16
+    f([ b)] b([ d)] d8. f,16
+    es'16([ d)] d([ c)] c8. f,16 %115
+    f8([ b)] d f,
+    g4 a
+    b c8. es16
+    \appoggiatura es d8 c16([ b)] a([ g)] f([ es)]
+    d4( c)\trill %120
+    b r8 f'
+    f2~
+    f16[ b a c] b[ f es' c]
+    d[ b a c] b[ f es' c]
+    d[ a] b([ f)] g([ es)] es'([ c)] %125
+    b4( c)\trill
+    b r
+    r8 b b b
+    b2~
+    b8.\fermata b,16 c4\trill %130
+    b r
+    R2*16 %147
+    R2\fermata \bar "||" %148 finis
+  }
+}
+
+AdesteSoliLyrics = \lyricmode {
+  Ad -- %15
+  e -- ste vo -- tis
+  a -- li -- tes, ad --
+  e -- ste pon -- to
+  nan -- tes, ad --
+  e -- ste tur -- bae %20
+  re -- pti -- les gre --
+  ges -- que ru -- mi --
+  nan -- tes! Ad --
+  e -- ste quot -- quot
+  vi -- vi -- tis in %25
+  a -- stris at -- que
+  ter -- ris,
+
+  in
+  lau -- des no -- stras %30
+  i -- bi -- tis a --
+  per -- tis
+  ro -- stri, a --
+  per -- tis ro -- stri
+  se -- %35
+  ris, ad --
+  e -- ste, ad --
+  e -- ste, in
+  lau -- des
+  no -- stras %40
+  i -- bi -- tis a --
+  per -- tis
+  ro -- stri, a --
+  per -- tis ro -- stri
+  se -- %45
+  ris.
+
+  Ad -- %54
+  e -- ste vo -- tis %55
+  a -- li -- tes, pon -- to
+  nan -- tes, tur -- bae
+  re -- pti -- les gre --
+  ges -- que ru -- mi --
+  nan -- tes, ad -- %60
+  e --
+
+  ste, ad -- %64
+  e -- ste vo -- tis %65
+  a -- li -- tes, ad --
+  e -- ste pon -- to
+  nan -- tes, ad --
+  e -- ste tur -- bae
+  re -- pti -- les gre -- %70
+  ges -- que ru -- mi --
+  nan -- _
+  _ _
+  _ _
+  _ _ %75
+  _ _
+  _ _
+  _ _
+  _ _
+  _ %80
+  _ tes, ad --
+  e -- ste quot -- quot
+  vi -- vi -- tis in
+  a -- stris at -- que
+  ter -- ris, %85
+
+  in
+  lau -- des no -- stras
+  i -- bi -- tis a --
+  per -- tis ro -- stri %90
+  se -- ris, a --
+  per -- tis
+  ro -- stri, a --
+  per -- tis ro -- stri
+  se -- %95
+  ris, ad --
+  e -- ste, ad --
+  e -- ste, ad --
+  e -- ste vo -- tis
+  a -- li -- tes, ad -- %100
+  e -- ste pon -- to
+  nan -- tes, ad --
+  e -- ste tur -- bae
+  re -- pti -- les gre --
+  ges -- que ru -- mi -- %105
+  nan -- tes! Ad --
+  e -- ste quot -- quot
+  vi -- vi -- tis in
+  a -- stris at -- que
+  ter -- ris, %110
+
+  in
+  lau -- des no -- stras
+  i -- bi -- tis a --
+  per -- tis ro -- stri %115
+  se -- ris, a --
+  per -- tis
+  ro -- stri, a --
+  per -- tis ro -- stri
+  se -- %120
+  ris, a --
+  per --
+  _
+  _ _
+  _ tis ro -- stri %125
+  se --
+  ris,
+  a -- per -- tis
+  ro --
+  stri se -- %130
+  ris. %131 finis
 }

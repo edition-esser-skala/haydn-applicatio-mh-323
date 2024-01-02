@@ -140,3 +140,106 @@ CanticumCornoII = {
     c'8 g e g c,4 r\fermata \bar "|." %137 finis
   }
 }
+
+AdesteCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoAdeste
+    \partial 8 r8 c'2\p
+    g4\f c8 r
+    c,4 r
+    c r
+    r g' %5
+    c, r
+    R2
+    r8 g'' g, r
+    c\p r g r
+    c r g r %10
+    R2
+    c,4\f c8 c
+    c4 r
+    r8 c' d g,
+    e4 r %15
+    R2*3
+    r8 c4\p g'8
+    c, r r4 %20
+    R2*2
+    r8 g' g r
+    R2*6 %29
+    d'2~ %30
+    d
+    R2*4 %35
+    g,8 r d' r
+    g, r d' r
+    g, r r4
+    R2*2 %40
+    r4 r8 d'\f
+    g, r r4
+    R2*4 %46
+    d'4\f g,8 r
+    g4 r
+    g r
+    R2 %50
+    r8 g g g
+    g4 r
+    r8 e' c d
+    g,4 r
+    R2*10 %64
+    c,2\p %65
+    g'4\fz c8\p r
+    R2
+    r4 c,8 c
+    c2
+    g'4\fz c8\p r %70
+    R2*10 %80
+    r8 g g r
+    R2*14 %95
+    c8 r g r
+    c r g r
+    c r g r
+    c,2~
+    c %100
+    c~
+    c
+    c4 r8 c
+    g'4\fz c8\p r
+    R2 %105
+    r8 g g r
+    R2
+    g4\fz c,8\p r
+    R2
+    g'4\fz c,8\p r %110
+    g' r r4
+    c8 r r4
+    g8 r r4
+    c8 r r4
+    g8 r r4 %115
+    c8 r r4
+    R2*4 %120
+    c,8\f r g' r
+    c r g r
+    c, r r4
+    R2*3 %126
+    c2\fE
+    c8 r r4
+    r r8 c
+    g'4 r\fermata %130
+    c,8 c r4
+    R2
+    r8 g'' g, r
+    c\p r g r
+    c r g r %135
+    R2
+    c,4\f c8 c
+    c4 r
+    r8 c' d g,
+    e4 r %140
+    R2
+    c'~\p
+    c~
+    c8 g e c
+    c2 %145
+    R2*2
+    R2\fermata \bar "||" %148 finis
+  }
+}

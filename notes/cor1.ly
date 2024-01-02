@@ -140,3 +140,106 @@ CanticumCornoI = {
     \pa c g e g \pd c4 r\fermata \bar "|." %137 finis
   }
 }
+
+AdesteCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoAdeste
+    \partial 8 r8 \pao c'2\p
+    d4\f e8 r
+    c4 r
+    c r
+    r g' %5
+    g r
+    R2
+    r8 \pa g g, \pd r
+    g'\p r g r
+    g r g r %10
+    R2
+    c,4\f c8 c
+    c4 r
+    r8 \pa c f d \pd
+    c4 r %15
+    R2*3
+    r8 c4\p d8
+    c r r4 %20
+    R2*2
+    r8 d d r
+    R2*6 %29
+    \pa d2~ %30
+    d \pd
+    R2*4 %35
+    d8 r \pao d r
+    d r \pao d r
+    d r r4
+    R2*2 %40
+    r4 r8 \pao d\f
+    d r r4
+    R2*4 %46
+    \pao d4\f d8 r
+    g4 r
+    g r
+    R2 %50
+    r8 g g g
+    g4 r
+    r8 \pa e c d \pd
+    d4 r
+    R2*10 %64
+    c2\p %65
+    d4\fz e8\p r
+    R2
+    r4 c8 c
+    c2
+    d4\fz e8\p r %70
+    R2*10 %80
+    r8 d d r
+    R2*14 %95
+    g8 r g r
+    g r g r
+    g r g r
+    c,2~
+    c %100
+    c~
+    c
+    c4 r8 c
+    d4\fz e8\p r
+    R2 %105
+    r8 d d r
+    R2
+    d4\fz c8\p r
+    R2
+    d4\fz c8\p r %110
+    g' r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4
+    g8 r r4 %115
+    g8 r r4
+    R2*4 %120
+    c,8\f r d r
+    e r d r
+    c r r4
+    R2*3 %126
+    c2\fE
+    c8 r r4
+    r r8 c
+    \pao g4 r\fermata %130
+    c8 c r4
+    R2
+    r8 \pa g' g, \pd r
+    g'\p r g r
+    g r g r %135
+    R2
+    c,4\f c8 c
+    c4 r
+    r8 \pa c f d \pd
+    c4 r %140
+    R2
+    c~\p
+    c~
+    c8 g e c
+    c2 %145
+    R2*2
+    R2\fermata \bar "||" %148 finis
+  }
+}

@@ -20,6 +20,7 @@ SacerdosSecundusE = \markup \remarkE "Sacerdos 2:dus"
 tempoCanticum = \tempoMarkup "Allegro"
 tempoIamScena = \tempoMarkup "[Recitativo]"
   tempoIamScenaB = \tempoMarkup "Andante"
+tempoAdeste = \tempoMarkup "Andante con moto"
 
 
 \include "notes/ob1.ly"

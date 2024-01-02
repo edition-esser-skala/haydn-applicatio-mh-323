@@ -187,11 +187,164 @@ IamScenaViola = {
     \key b \major es8 g, r es' f4\fz b,8 b\p
     as4 f8. as16\f f4( es8) r
     r2 c'~\p
-    c b8 b r b
+    c b8 b r b %40
     c4\fz f,8 f'\p es4 c
     r8 a(\f b) r r2
     b\p b
     c2. r4
-    r r8 f,\f f4 r\fermata \bar "|."
+    r r8 f,\f f4 r\fermata \bar "||" %45 finis
+  }
+}
+
+AdesteViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoAdeste
+    \partial 8 r8 d\fE d, r d'
+    c c' f, b
+    b b, b' b
+    b b, b' b
+    g g c, c %5
+    c b b d
+    es es g g
+    f f f, r
+    r b\p r f'
+    r b, r f' %10
+    r es f f
+    g,\f g' f es
+    d r d es
+    f g es f
+    b f b, r %15
+    r b'\p b, f'
+    f,4\fz r8 b\p
+    g4 a
+    r8 b b f'
+    r b b, f' %20
+    f,4\fz r
+    r8 es'\p es, e
+    f f' f,4
+    r8 f g a
+    c g' f4 %25
+    r8 f, g a
+    c g' f f,
+    b4 a
+    e8( c') r a
+    b4 a %30
+    e8( c') r f,
+    f r r g'
+    f r r b,
+    a f b g
+    c c c c %35
+    c c r c
+    r c r c
+    r c r4
+    d c
+    b a %40
+    g r
+    f8\fE r r g'\pE
+    f r r b,
+    a f b g
+    c c c16\f g' g g %45
+    a8 a, r a'
+    g g c, f
+    f f, f' f
+    f f, f' f
+    d d c c %50
+    c b a g
+    f g a b
+    c d b c
+    f c f, r
+    r c'\p c r %55
+    r b b r
+    r f f r
+    r f f r
+    g16 b8 b b b16~
+    b b8 b g g16 %60
+    a8 r r b
+    a r r b'
+    a r r b,\f
+    a4 r
+    r8 b'\p b, f' %65
+    f,4\fz r8 b\p
+    g4 a
+    r8 b b r
+    r b' b, f'
+    f,4\fz r8 b\p %70
+    b2
+    b8 g'16 f es8 es16 d
+    c4 r8 a
+    a f'16 es d8 d16 c
+    b4 r8 g %75
+    g es'16 d c8 c
+    f4 r8 f
+    f4 r8 f
+    f4 r8 f
+    f b, es e %80
+    f f f, r
+    r4 r8 f'
+    f4\fz f8\p r
+    r4 r8 f
+    f4\fz f8 r %85
+    R2
+    r8 f d b
+    f4 r
+    r8 f' d b
+    f4 r %90
+    r8 b b b
+    b r r c
+    b r r es,
+    d b' es c
+    f f f, f %95
+    b f' r f
+    r f r f
+    r f r f
+    r b, b b
+    b4. es8 %100
+    es b b b
+    b2
+    r8 b' b, f'
+    f,4\fz r
+    r8 es'\pE es,( e) %105
+    f f' f, r
+    r4 r8 f'
+    f4\fz f8\p r
+    r4 r8 f
+    f4\fz f8\p r %110
+    R2
+    r8 f d b
+    f4 r
+    r8 f' d b
+    f4 r %115
+    r8 f' d b
+    es\f r c r
+    d r a r
+    b\p c d es
+    f f f f %120
+    f\f r c r
+    d r f r
+    r c'16(\p a) b8 f
+    r c'16( a) b8 f
+    r d es c %125
+    f\cresc f f f
+    b,\f g' f es
+    d r r4
+    \tuplet 3/2 8 { r16 d'-! c-! b([ a) g] fis( g) a-! b[-! g-! e]-! }
+    f4 r\fermata %130
+    d8 b' r d,
+    es es g g
+    f f f, r
+    r b\p r f'
+    r b, r f' %135
+    r es f f
+    g,\f g' f es
+    d r d es
+    f g es f
+    b, r r4 %140
+    R2*3
+    d,2~\p
+    d~ %145
+    d4 d
+    es8( b') b-! b-!
+    b2\fermata \bar "||" %148 finis
   }
 }

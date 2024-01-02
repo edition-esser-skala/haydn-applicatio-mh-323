@@ -192,6 +192,163 @@ IamScenaViolinoII = {
     c4( b8) r r2
     d\p es
     f2. r4
-    r r8 c\f b4 r\fermata \bar "|." %45 finis
+    r r8 c\f b4 r\fermata \bar "||" %45 finis
+  }
+}
+
+AdesteViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoAdeste
+    \partial 8 f'8\fE f8. d16 b'( a) g( f)
+    f8. g16 f8( fis)
+    g8. a16 b( g) d( f)
+    % \after 8 \turn g8. a16 b( g) d( f)
+    es8. f16 es8 d
+    \tuplet 3/2 8 { c16 es g g([ c,) es]-! es( a,) c-! c([ es,) es]-! } %5
+    es8\trill d r f
+    \tuplet 3/2 8 { g16 es' h c[ g' d] es h c es,([ g) es] }
+    \appoggiatura d8 c4 r
+    r8 f\p f( c)
+    r f f( c) %10
+    r16. f32 es16. g32 f16( b) f( a)
+    b'8~\f \tuplet 3/2 8 { b16 b, b' a([ b,) a'] g( b,) g'
+    f-! d-! c-! b[-! a-! g]-! f b a g[ f es]
+    d g f es[ d c] g' b b f[ a a] }
+    b8 f b, r %15
+    d4.\p b8
+    c4\fz d8\p f
+    g8. es16 es( d) d( c)
+    r c( b es) d( f) es( c)
+    d8 b( d) b %20
+    c4\fz b8\p b
+    b b r g'16. d32
+    d8 c r4
+    r8 c b a
+    g e' f16( a) c,( f) %25
+    a,8 c b a
+    g e' f c
+    e16( c e c) f( c f c)
+    g'( c, e g) f( a, c f)
+    e( c e c) f( c f c) %30
+    g'( c, e g) f a, a a
+    a\fp c c c g\fp e' e e
+    c\fp f f f d'\fp f, f f
+    f8 c d b'16 g
+    f8 f e e %35
+    f a r g
+    r a r g
+    r a c,( g')
+    r f a,( e')
+    r d f( c) %40
+    r \tuplet 3/2 8 { g16\f c d e[ g a] b a g
+    a, c\p c c[ c c] g\fp e' e e[ e e]
+    c\fp f f f[ f f] d'\fp f, f f[ f f]
+    f\fp c' c c[ c c] } f,8 b16 g
+    f f f f e e\f e e %45
+    \appoggiatura f c'8. a16 f'( e) d( c)
+    c8. d16 c8( cis)
+    d8. e16 f( d) a( c)
+    % \after 8 \turn d8. e16 f( d) a( c)
+    b8. b'16 b8 a
+    \tuplet 3/2 8 { g16 b d d([ g,) b] b([ e,) g] g([ b,) b] %50
+    a([ c) f] d( f,) d' c([ f,) c'] b( f) b
+    a a-! g-! f[-! e-! d]-! c d' c b[ a g]
+    a c e, f[ b g] d' f, f c[ e e] }
+    f8 c a r
+    r a'\p a r %55
+    r b b r
+    r c, c r
+    r b b r
+    g16 cis8 cis cis cis16~
+    cis cis8 cis cis cis16 %60
+    d8 g( fis) cis
+    d g'( fis) cis
+    d g,(\f fis) cis
+    d4 r8 d\p
+    d4. b8 %65
+    c4\fz d8\p f
+    g8. es16 es( d) d( c)
+    c8 b16 b' b( f) f( d)
+    d4. b8
+    c4\fz d8\p es %70
+    f8. as16 as( g) g( f)
+    es8 es es es
+    es a!16 b c8 c,16 es
+    d8 d d d
+    d g16 a b8 b,16 d %75
+    c8 c c c
+    c c16 d es8 a,16 c
+    b8 b r es
+    d b r es
+    d f g g %80
+    c, a r4
+    r8 f' f f
+    a8.\fz f16\p b( f) d( b)
+    b'8 f f f
+    a8.\fz f16\p b8 r %85
+    c16( b) b( a) a( f) f( a,)
+    b( d) d( f) f( b) f( d)
+    c( b) b( a) a( f') f( a,)
+    b( d) f( d) f( b) f( d)
+    c( b) b( a) a( f') f( a,) %90
+    b f' d f f d d d
+    d\fp f f f c\fp a' a a
+    f\fp b b b g'\fp b, b b
+    b8 f g es'16 c
+    b8 b a a %95
+    b d r c
+    r d r c
+    r d r c
+    r d d d,
+    d4 es8 g %100
+    g es es es
+    es4 d8 d
+    d f d b
+    c4\fz d8\p b
+    b b r g'16. d32 %105
+    d8 c r4
+    r8 f f f
+    a8.\fz f16\p b( f) d( b)
+    b'8 f f f
+    a8.\fz f16\p b8 r %110
+    c16( b) b( a) a( f) f( a,)
+    b( f') d( f) f( b) f( d)
+    c( b) b( a) a( f') f( a,)
+    b( f') d( f) f( b) f( d)
+    c( b) b( a) a( f') f( a,) %115
+    b( f') d( f) b( f) b,( f')
+    g,\fp b b b c\fp es es es
+    b\fp f' f f f\fp c' c c
+    \appoggiatura c b8 a16 g f es d c
+    b b b b a a a a %120
+    \tuplet 3/2 8 { b\fp f' f f[ f f] es\fp c' c c[ c c]
+    f,\fp d' d d[ d d] a\fp es' es es[ es es] }
+    d8 es-! d-! c(
+    b) es-! d-! c(
+    b) b g es'16 c %125
+    \tuplet 3/2 8 { b16\cresc d d d[ d d] es, c' c c[ c c] }
+    b'8~\f \tuplet 3/2 8 { b16 b, b' a[ b, a'] g b, g'
+    f-! b-! a-! g[-! f-! es]-! d g f es[ d c]
+    b d c b[ a g] fis( g) a-! b[-! g-! e]-! }
+    f4 r\fermata %130
+    f'8~ \tuplet 3/2 8 { f16 g-! a-! b[ a g] f es d
+    c es h c[ g' d] es h c es,([ g) es] }
+    \appoggiatura d8 c4 r
+    r8 f\p f( c)
+    r f f( c) %135
+    r16. f32 es16. g32 f16( b) f( a)
+    b'8~\f \tuplet 3/2 8 { b16 b, b' a([ b,) a'] g( b,) g'
+    f d-! c-! b[-! a-! g]-! f b a g[ f es]
+    d g f es[ d c] g' b b f[ a a] }
+    b8 r d,\p es %140
+    \appoggiatura g f4 f8 f
+    f r d' es
+    \appoggiatura g f4 f8 f
+    f r r4
+    r8 f, f f %145
+    f( as) g f
+    \appoggiatura f es4 es8 es
+    es2\fermata \bar "||" %148 finis
   }
 }

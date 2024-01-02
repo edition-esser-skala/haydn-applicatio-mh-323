@@ -143,3 +143,115 @@ CanticumOboeI = {
     g8 d h d g4 r\fermata \bar "|." %137 finis
   }
 }
+
+AdesteOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoAdeste
+    \partial 8 r8 \mvDl d'2\p
+    \pa es4\f d8 fis
+    g4 b8 d, \pd
+    es4. d8
+    c4 c %5
+    r8 \pa d f d \pd
+    g4. es8
+    \appoggiatura d c4 r
+    d8\p r es r
+    d r es r %10
+    d( es) d( c)
+    r \pa b'(\f a) g \pd
+    f4. g8
+    \pa d es c4\trill
+    b \pd r %15
+    R2*3
+    r4 d8\p a
+    b r r4 %20
+    R2*2
+    r8 f' f r
+    R2
+    r8 b,( a) r %25
+    R2
+    r8 b( a) r
+    \pa c2~
+    c \pd
+    R2*6 %35
+    a8 r b r
+    a r b r
+    a r r4
+    R2*2 %40
+    r8 \pa b4\f b8 \pd
+    a r b r
+    a r d r
+    R2*3 %46
+    b4\f a8 cis
+    \pa d4 f8 a,
+    b b'4 a8
+    g4. b,8 %50
+    a d c b
+    f'2
+    a4 g\trill
+    f \pd r
+    R2*10 %64
+    d2\p %65
+    es4\fz d8\p r
+    R2
+    r4 d8 d
+    d2
+    es4\fz d8\p r %70
+    R2*10 %80
+    r8 f f r
+    R2*3
+    r4 r8 f, %85
+    es'16( d) d( c) c8. f,16
+    f( b) b( d) d4
+    R2*8 %95
+    d8 r es r
+    d r es r
+    d r es r
+    d r r as
+    as4 g8 r %100
+    r4 r8 g
+    g4 f8 r
+    d'2
+    es4\fz d8\p r
+    R2 %105
+    r8 f f r
+    R2
+    c4\fz d8\p r
+    R2
+    c4\fz d8\p \pa f, %110
+    es'16( d) d( c) c8. f,16
+    f b b d d4 \pd
+    c8 r r4
+    \pao b8 r r4
+    c8 r r4 %115
+    d8 r r4
+    R2*4 %120
+    f8\f r f r
+    f r a r
+    b r r4
+    R2*3 %126
+    r8 b\fE a g
+    f r r4
+    r8 b b b
+    b4 r\fermata %130
+    f2
+    g4. es8
+    \appoggiatura d c4 r
+    d8\p r es r
+    d r es r %135
+    d( es) d( c)
+    r \pa b'(\f a) g \pd
+    f4. g8
+    \pa d es c4\trill
+    b \pd r %140
+    R2
+    b'~\p
+    b~
+    b8 \pa f d b
+    \appoggiatura b as4 \pd as8 as %145
+    as( c) b as
+    \appoggiatura as g4 g8 g
+    g2\fermata \bar "||" %148 finis
+  }
+}
