@@ -23,6 +23,10 @@ tempoIamScena = \tempoMarkup "[Recitativo]"
 tempoAdeste = \tempoMarkup "Andante con moto"
 tempoLaudate = \tempoMarkup "Adagio non tanto"
   tempoLaudateB = \tempoMarkup "Allegro moderato"
+tempoDilecta = \tempoMarkup "[Recitativo]"
+  tempoDilectaB = \tempoMarkup "Andante"
+  tempoDilectaC = \tempoMarkup "Allegretto"
+  tempoDilectaD = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

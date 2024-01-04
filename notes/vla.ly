@@ -434,3 +434,83 @@ LaudateViola = {
     r es8 r es4 r\fermata \bar "|." %79 finis
   }
 }
+
+DilectaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoDilecta
+    R1*4
+    r2 r4 r8 g'\fE %5
+    \after 8 \p e1~
+    e
+    a,
+    c!~
+    c %10
+    \tempoDilectaB f,4 r8 f'\mf c4 r8 f,
+    b(\ff d) c c c4~ c8 r
+    r2 c~\p
+    c d~
+    d1~ %15
+    d2 g
+    e1~
+    e
+    a,
+    g %20
+    c
+    f2 g
+    r4 r8 g\fE g4 r8 c,\mf
+    g4 r8 c, f(\ff a) g g
+    g4~ g8 r r2 %25
+    g1\p
+    c,
+    c'~
+    c2 d~
+    d1~ %30
+    d2 e~
+    e1
+    c
+    h~
+    h %35
+    r8 e, e e e2
+    r8 g g g g2~
+    g g'~
+    g1~
+    g2 c, %40
+    d r4 r8 d\f
+    d4 r8 g\mf d4 r8 g,
+    c(\ff e) d d d4~ d8 r
+    r2 g~\p
+    g1~ %45
+    g2 e~
+    e1~
+    e2 a,~
+    a d~ \noBreak
+    d r4 r8 a\f %50
+    \key d \major \tempoDilectaC
+      a4 r8 d d cis r cis16. e32 \noBreak
+    a,4 r d r
+    d r e r
+    \after 8 \p cis1
+    d4 r8 d\f d cis r cis16. e32 %55
+    a,4 r r2
+    \after 8 \p d1
+    fis
+    h,~
+    h2 h~ %60
+    h a~
+    a1~
+    a
+    d
+    e2 r4 r8 e\f %65
+    \tempoDilectaD e4 r8 a\mf e4 r8 a,
+    d(\ff fis) e e e4~ e8 r
+    r2 a,\p
+    fis'1
+    e~ %70
+    e
+    e~
+    e
+    r8 fis16.\f fis32 fis8 fis16. fis32 fis4 r
+    r r8 h, h4 r\fermata \bar "||" %75 finis
+  }
+}

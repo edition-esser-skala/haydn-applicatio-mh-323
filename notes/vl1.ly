@@ -438,3 +438,83 @@ LaudateViolinoI = {
     q r <es b' g'> r <g, es' es'>4 r\fermata \bar "|." %79 finis
   }
 }
+
+DilectaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDilecta
+    R1*4
+    r2 r4 r8 g'\fE %5
+    \after 8 \p e'1~
+    e
+    d
+    c!~
+    c %10
+    \tempoDilectaB r16 a(\mf b) c-! c8( d) r16 g,( a) b-! b8( c)
+    r16 f,\ff f( b) b( a) a( g) g4( a8) r
+    r2 a~\p
+    a fis'~
+    fis1~ %15
+    fis2 g
+    cis,1~
+    cis
+    d
+    g %20
+    e
+    a2 h,
+    r4 r8 h\f c16 e,(\mf f) g-! g8( a)
+    r16 d,( e) f f8( g) r16 c,\ff c( f) f( e) e( d)
+    d4( e8) r r2 %25
+    c'1\p
+    g
+    c~
+    c2 h~
+    h1~ %30
+    h2 e~
+    e1
+    a,
+    fis~
+    fis %35
+    r8 g g g g2
+    r8 f! f f f2~
+    f d'~
+    d1~
+    d2 c %40
+    a r4 r8 fis'\f
+    g16 h,(\mf c) d-! d8( e) r16 a,( h) c-! c8( d)
+    r16 g,\ff g( c) c( h) h( a) a4( h8) r
+    r2 h~\p
+    h1~ %45
+    h2 e~
+    e1~
+    e2 d~
+    d h'~ \noBreak
+    h r4 r8 cis,\f %50
+    \key d \major \tempoDilectaC
+      d fis16. cis32 d16. a32 h16. fis32 g8 g'16. e32 cis16. a32 e'16. g,32 \noBreak
+    fis4 r a r
+    d r cis r
+    \after 8 \p e1
+    d8 fis16.\f cis32 d16. a32 h16. fis32 g8 g'16. e32 cis16. a32 e'16. g,32 %55
+    fis4 r r2
+    \after 8 \p a1
+    h
+    fis'~
+    fis2 e~ %60
+    e a~
+    a1~
+    a
+    fis
+    h,2 r4 r8 gis'\f %65
+    \tempoDilectaD a16 cis,(\mf d) e-! e8( fis) r16 h,( cis) d-! d8( e)
+    r16 a,\ff a( d) d( cis) cis( h) h4( cis8) r
+    r2 a\p
+    h1
+    e~ %70
+    e
+    cis~
+    cis
+    r8 dis16.\f dis32 dis8 h'16. h32 h4 r
+    r r8 dis, e4 r\fermata \bar "||" %75 finis
+  }
+}

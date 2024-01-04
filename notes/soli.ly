@@ -333,3 +333,163 @@ AdesteSoliLyrics = \lyricmode {
   stri se -- %130
   ris. %131 finis
 }
+
+DilectaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoDilecta
+    r8^\LevitaPrimus f b a b b r4
+    b16 b b b b8 c16 d c8 c r16 b c g
+    a8 a r4 c16 c c c d8 es
+    d d r d d b16 b b8 g
+    << { \autoBeamOff e' e16 e e8 f f c } \\ \context Voice = "Soli" { \voiceTwo e, e16 e e8 f f c \oneVoice } >> r4 %5
+    r8 e16 e a a a gis a8 a r a
+    a4. cis16 e e8 g,16 g g8 a
+    f16 f f8 r4 a8 a a d
+    c! c r c c g g f
+    g g r4 b8 b b c %10
+    \tempoDilectaB a16 a r8 r4 r2
+    r r4 r8 f
+    a8. a16 g8 a f f c'16 c b c
+    a8 a r c fis, fis r fis16 g
+    a8 a16 a a8 a16 d d8 a r4 %15
+    c16 c c c c8 b g g r g16 d'
+    cis8 cis a a16 h cis8 cis cis d16 e
+    e8. g,16 g4 r8 b b b16 a
+    f!8 f r4 f g8 a
+    g g r g d' d16 d e8 f %20
+    e e r4 r8 e c g
+    a a f'4. h,16 h h8 c
+    c g r4 r2
+    R1
+    r4 r8 c^\LevitaSecundus c g16 g f8 g %25
+    e e r4 e16 e e f g g g f
+    g8 g r16 g g c c8 g16 g g8 a
+    fis fis r fis fis fis g a
+    c,8. c16 c8 h d16 d d8 r4
+    d8 d d g g16 d d8 r g16 h %30
+    g8 g d16 d e f! e8 e r4
+    e8. e16 e8 e h' h h h16 c
+    a8 a r e16 e a4 a8 c
+    dis, dis r4 fis8 fis16 fis fis8 g
+    a a r4 c8. a16 a8 g %35
+    e e r4 e e8 e
+    f!16 f f8 r4 h8 h r4
+    h c8 d d g, r4
+    g8. d16 d4 r8 d d e
+    f4 f8 g e e r g16 c %40
+    c fis, fis8 r16 fis fis g g8 d r4
+    R1
+    r2 r4 r8 d
+    d d g fis g16 g g8 h a16 h
+    g8 g r g g d r d16 d %45
+    g4 a8 h a16 a a8 r4
+    a e8 d e16 e e8 e fis
+    g16 g g8 r16 g h a fis fis fis8 r4
+    a8. a16 a8 d h h r4 \noBreak
+    h8 g16 g g8 g16 fis d8 d r4 %50
+    \key d \major \tempoDilectaC R1 \noBreak
+    r8 d fis16 fis fis g a a a8 r4
+    d8 a r4 g8 g r4
+    g16 cis, cis8 r16 e e fis g8 g16 g g8 g16 a
+    fis8 fis r4 r2 %55
+    r4 r8 a fis fis fis e16 fis
+    d8 d r4 fis8. fis16 fis8 a
+    a dis, r dis fis fis fis h
+    h fis r fis dis dis16 dis dis8 e
+    fis fis16 fis gis8 a gis16 gis gis8 r e %60
+    h' h h h16 cis a a a8 r16 cis, cis d
+    e e e8 e16 e a gis a a a8 r a
+    a e e fis g16 g g h g8 a16 e
+    fis8 fis r fis a a d h16 a
+    gis gis gis8 gis a e16 e e8 r4 %65
+    \tempoDilectaD R1
+    r2 r4^\LevitaPrimus e'
+    cis8 cis cis h16 cis a8 a r16 a h cis
+    h8 h r fis16 gis a8 a a gis
+    e8. e16 e4 r h'8 h16 e %70
+    e8 h r h h h cis d!
+    cis cis r4 r8 a a h
+    cis cis r e cis cis cis h16 a
+    dis8 dis r4 r8 dis dis e
+    e8. h16 h4 r2\fermata \bar "||" %75 finis
+  }
+}
+
+DilectaSoliLyrics = \lyricmode {
+  Di -- le -- cta ma -- ter!
+  Pre -- ci -- bus haud fa -- ctum est sa -- tis no -- stris -- que
+  vo -- tis a -- li -- a sunt no -- bis
+  su -- per, pro qui -- bus a -- man -- do
+  Nu -- mi -- ni gra -- tes a -- gas. %5
+  Ju -- bi -- lae -- us ist -- hic an -- nus est
+  pro -- pri -- us Ti -- bi cun -- ctis -- que
+  fi -- li -- is: Sed ac -- cre -- scit
+  no -- vum ex par -- te Be -- dae
+  Pa -- tris hu -- ic an -- no %10
+  de -- cus;
+  nam
+  bis vi -- gin -- ti quin -- que tu -- lit Hae -- mus
+  ni -- ves quas an -- te se per
+  vo -- ta so -- lem -- ni -- a DE -- o %15
+  to -- tum im -- mo -- la -- vit Be -- da, et hac
+  di -- e no -- vo fir -- ma -- vit e -- a -- dem
+  foe -- de -- re e -- me -- ri -- tus
+  pu -- gil, qui tot la --
+  bo -- res pro DE -- o, et Ma -- tris %20
+  bo -- no, At -- lan -- tis
+  in -- star in -- ter ae -- rum -- nas
+  tu -- lit.
+
+  Ve -- ris -- si -- ma in -- quis %25
+  fra -- ter! Et -- e -- nim quis ad -- e -- o sit
+  cae -- cus ut mo -- nu -- men -- ta fer -- vo -- ris
+  sa -- cri quo -- cun -- que ver -- tit
+  lu -- mi -- na haud vi -- de -- at?
+  Gre -- gem si -- bi cre -- di -- tum per bis %30
+  de -- cem at -- que an -- nos no -- vem
+  co -- mi -- te So -- phi -- a pro -- vi -- de
+  re -- xit: no -- vus hinc et se --
+  cun -- dus ju -- re -- di -- ca -- tur
+  So -- lon at -- que Ne -- he -- %35
+  mi -- as nam -- que te
+  ve -- tu -- lam ni -- gram,
+  o ca -- ra Ma -- ter!
+  Il -- li -- co in spon -- sam
+  no -- vam mu -- ta -- vit, ut vix %40
+  a -- li -- quis an -- ti -- quam pu -- tet.
+
+  Sed
+  ver -- be -- ra -- rem ma -- ri -- a Xer -- xis in
+  mo -- dum, si cun -- cta, quae sunt %45
+  lau -- de di -- gnis -- si -- ma
+  bre -- vi com -- pen -- di -- o au -- sim
+  car -- mi -- ne ef -- fa -- ri im -- pa -- re;
+  tan -- tum est Ho -- me -- ri,
+  va -- tis haud hu -- mi -- lis o -- pus. %50
+
+  Lu -- stra -- re tem -- pli for -- mi -- ces,
+  a -- ras, cho -- rum,
+  or -- ga -- na, lo -- quen -- tur i -- sta mu -- ni -- fi -- cum
+  Pa -- trem. %55
+  Di -- ta -- ta Bib -- li -- o --
+  the -- ca pre -- ti -- o -- sis
+  li -- bris scri -- ptis -- que, pi -- ctu --
+  ris -- que be -- ne -- fi -- cum sa -- cris
+  mu -- sis Pa -- ren -- tem prae -- di -- cat, a -- %60
+  vi -- tae in -- do -- lis me -- mo -- rem, quod an -- te
+  sae -- cu -- la pro -- pe o -- cto in -- te -- gra haec
+  Pe -- tra jam flo -- ru -- e -- rit e -- gre -- gi -- is
+  vi -- ris, do -- ctri -- na quos su -- per
+  a -- li -- os lon -- ge ex -- tu -- lit. %65
+
+  Ah!
+  par -- ce lau -- di -- bus hi -- sce; nam vir -- tus
+  si -- bi si -- ne prae -- di -- can -- te
+  suf -- fi -- cit. Po -- ti -- us %70
+  pu -- dor sub -- fun -- dat o -- ra
+  no -- stra, vir -- tu -- tem
+  Pa -- tris lau -- da -- re quod va -- le --
+  a -- mus: at nun -- quam
+  ad -- se -- qui. %75 finis
+}

@@ -852,3 +852,163 @@ LaudateBassFigures = \figuremode {
   r1
   r %79 finis
 }
+
+DilectaCembalo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDilecta
+    d1~\pE
+    d2 e!
+    f1
+    b,~
+    b2 r4 r8 c\fE %5
+    \after 8 \p cis1~
+    cis
+    d
+    e~
+    e %10
+    \tempoDilectaB f4 r8 b,\mf c4 r8 a
+    b4\ff c f8 c f, r
+    r2 f'~\p
+    f d~
+    d1~ %15
+    d2 b
+    a1~
+    a
+    d
+    h! %20
+    c
+    f
+    r4 r8 g\f c,4 r8 f\mf
+    g4 r8 e f4\ff g
+    c,8 g c r r2 %25
+    c1\p
+    e
+    a,~
+    a2 g~
+    g1~ %30
+    g2 gis~
+    gis1
+    c
+    h~
+    h %35
+    r8 e e e e2
+    r8 d d d d2~
+    d h~
+    h1~
+    h2 c~ %40
+    c r4 r8 d\f
+    g,4 r8 c\mf d4 r8 h
+    c4\ff d g8 d g, r
+    r2 g'~\p
+    g1~ %45
+    g2 cis,~
+    cis1~
+    cis2 d~
+    d g,~ \noBreak
+    g r4 r8 a\f %50
+    \key d \major \tempoDilectaC d4 r8 d e a, r a \noBreak
+    d4 r d r
+    fis r e r
+    \after 8 \p a,1
+    d4 r8 d\f e a, r a %55
+    d4 r r2
+    \after 8 \p c1
+    h
+    dis~
+    dis2 d~ %60
+    d cis~
+    cis1~
+    cis
+    d~
+    d2 r4 r8 e\f %65
+    \tempoDilectaD a4 r8 d,\mf e4 r8 cis
+    d4\ff e a8 e a, r
+    r2 cis\p
+    dis1
+    gis,~ %70
+    gis
+    a~
+    a
+    r8 a'16.\f a32 a8 a,16. a32 a4 r
+    r r8 h e4 r\fermata \bar "||" %75 finis
+  }
+}
+
+DilectaBassFigures = \figuremode {
+  <6->1
+  r2 <6>
+  r1
+  r
+  <4! 2> %5
+  <6>1
+  r
+  r
+  <6!>
+  r %10
+  r2.. <6>8
+  r4 <6 4>8 <5 3> <\t \t>4 <5>
+  r1
+  r2 <_+>
+  r1 %15
+  r2 <6>
+  <7 _+>1
+  r
+  <_!>
+  <6> %20
+  r
+  <3>2 <4 2>
+  r1
+  r4. <6> <6 4>8 <5 3>
+  <\t \t>4 <5>2. %25
+  r1
+  <6>
+  <6\\>
+  r
+  r %30
+  r2 <6>
+  r1
+  <6>
+  <5\+ _+>
+  r %35
+  r
+  r8 <6 _!>2..
+  r2 <6 5>
+  r1
+  r %40
+  <4\+ 2>2.. <_+>8
+  r2 <_+>4. <6>8
+  r4 <6 4>8 <5 _+> <\t \t>4 <5>
+  r1
+  r %45
+  r2 <6>
+  r1
+  r2 <_+>
+  r1
+  r2.. <_+>8 %50
+  r2 <7>8 q4 <\t>8
+  r1
+  <6>2 q
+  <7>1
+  r2 <7>8 q4 <\t>8 %55
+  r1
+  <2>
+  <_+>
+  <6>
+  r2 <4\+ 2> %60
+  r <6>
+  r1
+  r
+  r
+  <4\+ 2>2.. <_+>8 %65
+  r2 <_+>4. <6>8
+  r4 <6 4>8 <5 _+> <\t \t>4 <5>
+  r2 <6>
+  q1
+  q %70
+  r
+  r
+  r
+  r8 <4\+ 2>4 <\t \t>8 r2
+  r4. <_+>8 q2 %75 finis
+}
