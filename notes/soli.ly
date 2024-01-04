@@ -38,7 +38,7 @@ IamScenaSoli = {
     a8 a16 a a8 c b4 r8 d16 c
     b8 b b c16 g a8 a r4
     c8 c16 c c8 c16 h! d8 d r4\fermata
-    \clef treble r4 r8 g^\FiliaPatri b b b b16 c %35
+    \clef treble r4 r8 g^\FiliaPetri b b b b16 c %35
     as16 as as8 r as16 f d8 d as' as16 b
     \key b \major g g g8 r4 r2
     r r4 r8 b,

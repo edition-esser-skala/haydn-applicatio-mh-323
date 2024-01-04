@@ -202,3 +202,128 @@ CanticumSopranoLyrics = \lyricmode {
   re -- gna po -- ten --
   tum. %134 finis
 }
+
+LaudateSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*7 %7
+    r8 \mvTr es\pE^\tuttiE g b b8. b16 b4
+    b8.\fE b16 b8 b b b16 b c4
+    b r8 b b8. b16 b8 b %10
+    b4 b8. b16 b8 b c8. c16
+    as4 b g r
+    r2 es8. g16 b8 b
+    b b b8. b16 b4 r8 b
+    b b c4 b r %15
+    b b8 b b b r4
+    b8 b r b16 b c c as8 b4
+    g r r2
+    \after 4*5 \tempoLaudateB R1*5 %23
+    \mvTr f4.\pE^\LevitaPrimus b8 b4 a
+    c4. es8 es4 d %25
+    f4. d8 g([ h,)] c([ d)]
+    es4. g8 f([ a,)] b r
+    d4. f8 \appoggiatura es d4 d8 f
+    \appoggiatura es d4 d c8([ g' es)] c
+    b4( a) b r %30
+    R1*4
+    c4. a8 es'([ c)] d4 %35
+    c4. a8 es'([ c)] d4
+    f4. d8 g([ h,)] c([ d)]
+    es4. g8 f([ a,)] b r
+    d4. f8 \appoggiatura es d4 d8 f
+    \appoggiatura es d4 d c8([ g' es)] c %40
+    b4( a) b r
+    R1*4 %45
+    r8 \mvTr es,\fE^\tutti g b b8. b16 b4
+    b4. b8 b4 b
+    r8 b\p b b c4. c8
+    b4 r r2
+    b2 b4 b %50
+    b b b2\f
+    b4 b c as
+    b4. b8 g4 r
+    R1*2 %55
+    es2 g4 b
+    b8. b16 b4 r8 b b b
+    b4 b c2
+    b r
+    b4 b8 b b4 b %60
+    r b b b
+    c as b2
+    g4 r r2
+    R1
+    es8. g16 b8 b b4 b %65
+    b8. b16 b4 r b
+    b b c2
+    b4 r r2
+    b4. b8 b4 b
+    r b8 b b4 b %70
+    b b r b
+    c2 as
+    b1
+    g4 r r2
+    R1*4 %78
+    R1\fermata \bar "|." %79 finis
+  }
+}
+
+LaudateSopranoLyrics = \lyricmode {
+  Can -- ta -- te Do -- mi -- no %8
+  can -- ti -- cum in ci -- tha -- ris no --
+  vum, qui re -- vo -- cat in %10
+  nos pri -- sti -- ni au -- xi -- li --
+  i di -- es.
+  Psal -- li -- te tre --
+  men -- do Nu -- mi -- ni ad
+  cu -- jus pe -- des %15
+  Re -- gum co -- ro -- nae,
+  Scep -- tra et Im -- pe -- ri -- a ru --
+  unt.
+
+  qui te no -- bis %24
+  de -- dit Ma -- trem, %25
+  o di -- le -- ctum
+  no -- bis Pa -- trem,
+  o di -- le -- ctum, di --
+  le -- ctum no -- bis
+  Pa -- trem, %30
+
+  qui te no -- bis %35
+  de -- dit Ma -- trem,
+  o di -- le -- ctum
+  no -- bis Pa -- trem,
+  o di -- le -- ctum, di --
+  le -- ctum no -- bis %40
+  Pa -- trem.
+
+  Lau -- da -- te Do -- mi -- num %46
+  qui -- a bo -- nus
+  et qui -- a pi -- us
+  est,
+  et nos per %50
+  an -- nos mil --
+  le bis cen -- tum
+  au -- di -- it.
+
+  Can -- ta -- te %56
+  Do -- mi -- no qui de -- dit
+  no -- bis Pa --
+  trem,
+  ma -- lis ve -- ren -- dum %60
+  dul -- ca so --
+  la -- men bo --
+  nis.
+
+  Psal -- li -- te tre -- men -- do %65
+  Ju -- di -- ci ad
+  cu -- jus tu --
+  bam,
+  ter -- ra cre -- pat,
+  at -- que os -- sa %70
+  vo -- mit, et
+  Re -- ges
+  tre --
+  munt. %74 finis
+}

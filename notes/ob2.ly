@@ -251,3 +251,77 @@ AdesteOboeII = {
     es2\fermata \bar "||" %148 finis
   }
 }
+
+LaudateOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoLaudate
+    es4\fE r8 es f4 r8 f
+    es4 es es d
+    r8 es\p g d es d es d
+    es4 r8 es\f f4 r8 f
+    es r es r es es' c4 %5
+    b as g f
+    b2 c8 es, es d
+    r es\p g d es d es d
+    es g4\f g8 g16( es) g( es) c'( as) c( as)
+    g8 r f r es4 g %10
+    b r r2
+    r r8 es16( b) b8 r
+    r es16( b) b8 r g16 g g g as as as as
+    b b b b d d d d b b b b f' f f, f
+    es es es es g g es es d d d d es es es es %15
+    f f f f f f f f es g g g d as' as as
+    es b' b b g b b b es, as as as g es' f d
+    es g, g g as d d d g,8 es es4
+    r8 es\p g d es d es d
+    \appoggiatura d es4 \tempoLaudateB r r2 %20
+    R1*9 %29
+    r2 r8 d'\pE d d %30
+    d4 r r2
+    R1*5 %36
+    r2 r8 g,\p g h
+    c4 r r8 f, f a
+    b!4 r8 c \appoggiatura c b4 r8 c
+    \appoggiatura c b4 r r2 %40
+    b4 a b r
+    a2\f b4 r
+    a2 b8 f'4 a8
+    b b, b a d2
+    d~ d8 f f f, %45
+    es4 r d2
+    es4 r d2
+    es4 r8 g\p as2
+    g as
+    g4 es f2 %50
+    es f'\f
+    es4 g, c8 as as es
+    es4 d es r
+    c'2 c4 h
+    c c c h %55
+    c8 g4 g8 es4 r
+    r8 es es g g4 r
+    g r c2
+    b as
+    g g %60
+    g g
+    c4 c8 as g4 as8 f
+    g r es' r d2
+    d~ d8 f f f,
+    es4 r d16 d8 d d d16 %65
+    es4 r d16 d8 d d d16
+    es4 b' b a
+    b b a16 a8 a a a16
+    b4 r b16 b8 b b b16
+    b4 r d16 d8 d d d16 %70
+    es4 r des16 des8 des des des16
+    c4 r8 c as4 es'
+    r8 b d es d16 d8 d d d16
+    es4 r8 es, f4 r8 f
+    es4 r8 b' as4 r8 es'8 %75
+    es2 d
+    es8 r es r es r d r
+    es r es g es es,16 es es8 es
+    es r b' r g4 r\fermata \bar "|." %79 finis
+  }
+}

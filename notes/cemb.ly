@@ -684,3 +684,171 @@ AdesteBassFigures = \figuremode {
   <\t \t> <8 3>4.
   r2 %148 finis
 }
+
+LaudateCembalo = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoLaudate
+    \mvTr es4\f-\soloE r8 es d4 r8 d
+    es r as r b b b, b
+    es r es\p b es b es b
+    es4 r8 es\f d4 r8 d
+    es r g r es g, as c %5
+    es es f d es g b as
+    g g g, g as c b b
+    es r es\p b es b es b
+    es r es\f r es es as, as
+    es' r b-\pizz r es r es' r %10
+    g,4 r g8 g as as
+    c c b b, es r r b-\arco
+    es r r b es16 es es es f f f f
+    g g g g as as as as g g g g d d d d
+    es es g g es es f f b, b b b c c c c %15
+    d d d d b b b b es es es es f f f f
+    g g g g es es es es as, as c c b b b b
+    es es es es es es es es es8 es es es
+    es r es\p b es b es b
+    es4 \tempoLaudateB es8 f g4 r8 g, %20
+    as as' g es d b c d
+    es es es es es es es es
+    es es a, a b b'16 a b f d f
+    b,8 b d b f' f, r f'16 e
+    f8 f f f b b, r b'16 as %25
+    b8 b, b' as! g f es d
+    c es16 d c8 b! a es' d c
+    b b b' a b b, b' a
+    b b ,d b es h c es
+    f f f f b, b' f d %30
+    b4 r f' r
+    b, r f r
+    b8 r b' r f, r f' r
+    b r b, r f' r f, r
+    f' f, f'4 r8 f b b, %35
+    f' f, f'4 r8 f b b,
+    r b b' as! g f es d
+    c es16 d c8 b! a es' d c
+    b b b' a b b, b' a
+    b b, d b es h c es %40
+    f f f f b,4 r8 b\f
+    f' f f f b4 r8 b,
+    f' f f f b r b f
+    d es f f b f d' b
+    f' d b f as! f d b %45
+    es4 r8 es b b b b
+    es4 r8 es b b b b
+    es4 r8 es\p as,4 r8 as
+    es'4 r8 es as,4 r8 as
+    es'4 r8 es d4 r8 d %50
+    es4 r8 es d\f d d d
+    es es es es as, as c c
+    b b b b es g16 f es d c h
+    c c' es d c b! as g f( es) f-! f-! g( f) g-! g-!
+    as8 r as r f r g r %55
+    c, c c c c c d d
+    es4 r es r
+    es8 es g f e e f es
+    d d es d c c d b
+    es es es es des des des des %60
+    c c c c b b b b
+    as as f f b b b b
+    es r f r b f d' b
+    f' d b f as! f d b
+    es4 r8 es b b b b %65
+    es4 r8 es b b b b
+    es es g f es es f f
+    b,4 r8 b' f f f f
+    b b b b as! as as as
+    ges ges ges ges f f f f %70
+    es es es es es es es es
+    as, as as as c c c c
+    b b b b b b b b
+    es4 r8 es d4 r8 d
+    es4 r8 g, as4 r8 as %75
+    b b b b b b b b
+    c r as r b r b r
+    es4-! r es-! r
+    r es-! es-! r\fermata \bar "|." %79 finis
+  }
+}
+
+LaudateBassFigures = \figuremode {
+  r2 <6 5>
+  r <6 4>4 <7 3>
+  r4. <7>4 q q8
+  r2 <6 5>
+  r4 q4. q8 <9> <6> %5
+  <4> <3> <9> <6 5> <9> <6> <4> <2>
+  <6> <5->2 <6>8 <6 4> <5 _!>
+  r4. <7>4 q q8
+  r1
+  r4 <7>2. %10
+  <6 5->2 <7 \t>
+  <6>4 <6 4>8 <7 3>2 <7>8
+  r4. q <6>4
+  q <2> <6> <6 5>
+  r8 <6> <6 5> <7 _!>4. <6 _!>4 %15
+  <6> <7->2 <6>4
+  q <7->4. <6>8 <6 4> <5 _!>
+  r4 <7 4> <8 3>2
+  r4. <7>4 q q8
+  <\t> <5>4 <6>8 q4. <6 _!>8 %20
+  <3>8 <4 2-> <6>4 q8 q <7> <5>
+  r2 <4 2>8 <5 3> <6 4> <7 2>
+  <8 3>4 <7> <6 4> <5 3>
+  r2 <6 4>4 <5 _!>
+  <7 _!>2 <\t \t>4 <5> %25
+  r4. <\t>8 <7 _!> <4! 2> <6> <6!>
+  r4. <\t>8 <6 5> <4! 2> <6>4
+  r4. <6>8 <9 4> <8 3>4 <6 5>8
+  <9 4> <8 3>4. <6>8 <6 5>4 <6>8
+  <6 4->4 <5 _!>2. %30
+  r2 <7 _!>
+  r <_!>
+  r2 <7 _!>
+  r <6 4>4 <5 _!>
+  <_!>2 r8 <7 _!>4. %35
+  <_!>2 r8 <7 _!>4.
+  r4. <\t>8 <7 _!> <4! 2> <6> <6!>
+  r4. <\t>8 <6 5> <4! 2> <6>4
+  r4. <6>8 <9 4> <8 3>4 <6 5>8
+  <9 4> <8 3>4. <6>8 <6 5>4 <6>8 %40
+  <6 4->4 <7 _!>2.
+  <7 _!>1
+  q2.. <_!>8
+  <6>4 <6 4>8 <5 _!> <3>2 \bassFigureExtendersOn
+  q4. q8 <4 2>4. q8 \bassFigureExtendersOff %45
+  r2 <7>
+  r q
+  r1
+  r
+  r2 <6 5> %50
+  r q
+  r2. <6>4
+  <6 4> <7 5>2.
+  <5 3>4.. \bassFigureExtendersOn q16 <6 5\!>8. <6 5>16 <_!>8. q16 \bassFigureExtendersOff
+  <5>2. <7 _!>4 %55
+  r2. <6->4
+  r1
+  r4 <6>8 <6-> <6 5>2
+  q q4 q
+  r2 <2> %60
+  <7 _!> <4! 2->
+  <6> <6 4->4 <5 _!>
+  r4 <7 _!> <3>2 \bassFigureExtendersOn
+  q4. q8 <4 2>4. q8 \bassFigureExtendersOff
+  r2 <7> %65
+  r q
+  r4 <6>8 <6 4> <6 5>4 <_!>
+  r2 <7 _!>
+  r2 <2>
+  <6> <4 3> %70
+  <8 _-> <7- _!>
+  r <6>
+  <6 4>4 <5 3>8 <4 2> <5 3>2
+  r <6 5>
+  r4. <6>8 r2 %75
+  <6 4>2 <5 3>
+  r <6 4>4 <7 5>
+  r1
+  r %79 finis
+}

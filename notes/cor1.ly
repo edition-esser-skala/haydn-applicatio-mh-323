@@ -243,3 +243,77 @@ AdesteCornoI = {
     R2\fermata \bar "||" %148 finis
   }
 }
+
+LaudateCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLaudate
+    g'4\fE r8 g g4 r8 g
+    c2 \pa g8 g g g \pd
+    g4 r8 d'\p c d c d
+    c4 r8 g\f g4 r8 g
+    g r c r c4 c8 c %5
+    c4 r8 d \pa g,4 g8 d' \pd
+    c c c c c4 r8 \pao g
+    g4 r8 d'\p c d c d
+    c c4\f c8 c2
+    c8 r \pao g r c2 %10
+    c4 r r2
+    r r8 \pa c16( g) g8 \pd r
+    r \pa c16( g) g8 \pd r e'16 e e e d d d d
+    c c c c d d d d c c c c d d d d
+    c4 r8 \pao d d16 d d d \pa d d d d \pd %15
+    d d d d d d d d e e e e d d d d
+    c c c c c c c c c c c c e e d d
+    c c c c d d d d c8 c c c
+    c r r d\p c d c d
+    c4 \tempoLaudateB r r2 %20
+    R1*9 %29
+    r2 r8 d\pE d d %30
+    d4 r r2
+    R1*5 %36
+    r2 \pa e\p
+    e4 \pd r \pao d2
+    d4 r8 \pao d d4 r8 \pao d
+    d4 r r2 %40
+    r4 \pao d d r
+    \pao d2\f d4 r
+    \pao d2 d4 r8 \pao d
+    g4 r8 \pao d d2
+    d~ d8 d d d %45
+    c4 r d2
+    c4 r d2
+    c4 r8 c\p c2
+    c c
+    c4 g \pao g2 %50
+    g \pa g8 g g g \pd
+    c c c c c4 r8 c
+    e e d d c4 r
+    r2 \pa d4 e
+    c r8 c d4 e \pd %55
+    e c e g
+    c,8 c c c c c16 c c8 c
+    c4 r r \pao d
+    d e r d
+    c r c r %60
+    e r r2
+    r d4 d8 d
+    e r \pao d r d2
+    d~ d8 d d d
+    c4 r d16 d8 d d d16 %65
+    c4 r d16 d8 d d d16
+    c4 r r2
+    r8 d d d \pa d16 d8 d d d16 \pd
+    d4 r d16 d8 d d d16
+    c4 r g'16 g8 g g g16 %70
+    \pao c,4 r \pa g'16 g8 g g c,16
+    c4 \pd r r \pao c
+    g'16 g8 g g g16~ g g8 g g g16
+    e4 r8 g, \pao g4 r8 \pao g
+    c2 c %75
+    \pa g8 g g g g g g g \pd
+    c r c r \pao g r \pao g r
+    g r r4 c8 r r4
+    \pa c8 g16 g \pd g8 g g4 r\fermata \bar "|." %79 finis
+  }
+}

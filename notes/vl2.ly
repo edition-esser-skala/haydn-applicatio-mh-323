@@ -352,3 +352,89 @@ AdesteViolinoII = {
     es2\fermata \bar "||" %148 finis
   }
 }
+
+LaudateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoLaudate
+    r16. es32\f es8\trill b( g') r16. f32 f8\trill as( as,)
+    \tuplet 3/2 8 { r16 g(([ b)] es( g) b-! r c,([ es)] as( c) es-! r es([ b)] g( es b') as([ f d)] as( d f) }
+    \appoggiatura f es8 es~\p \tuplet 3/2 8 { es16([ f g)] as( f d) es([ f g)] as( f d) es([ f g)] as( f d) }
+    es16. es32\f es8\trill b( g') r16. f32 f8\trill as( as,)
+    \tuplet 3/2 8 { r16 g([ b)] es( g) b-! r b,([ es)] g( b) es-! r g,([ b)] es( g) b-! b[-! c,-! c]-! c-! as'-! as-! %5
+    as[ b, b] b g' g g[ as, as] as f' f f[ g, g] g es' es es[ f, f] f d' d
+    es[ b c] des b c des[ b g] es b' des, c[ es es] es es es es([ as g)] f( es d) }
+    \appoggiatura d es8 es~\p \tuplet 3/2 8 { es16([ f g)] as( f d) es([ f g)] as( f d) es([ f g)] as( f d) }
+    es(\f g) b( es) b g es b g8 r r4
+    \tuplet 3/2 8 { r16 g''[^\pizz f] es d c b[ as g] f es d } es d es f g f g as %10
+    b as b c des c b c des b des b es, c' c c
+    as es as es es g f d! es8 r r f16(-\arco as)
+    g8 r r f16( as) g32-!-\markup \remark "staccato" b-! c-! b-! as[ g f es] d f b d f[ as f d]
+    es d c b as[ g f es] d f b d f[ b f d] es d c b as[ g f es] f' es d c b[ as g f]
+    g b b b es,[ es' es es] g, g' g g es,[ a a a] b a g f es[ d c b] a c es a c[ es c a] %15
+    b a g f es[ d c b] as'[ g f g] as f d f es' d c b as[ g f es] d f b d f[ as f d]
+    es d c b as[ g f es] des'[ c b as] g b as g as[ c c c] as es' es es b[ es es es] b d d d
+    es d c b as[ g f es] d as' as as b[ as' as as] g es es es es[ b b b] b g g g g[ b, b b]
+    \appoggiatura as16 g8 es'~\p \tuplet 3/2 8 { es16([ f g)] as( f d) es([ f g)] as( f d) es([ f g)] as( f d) }
+    \appoggiatura d8 es4 \tempoLaudateB r r es~ %20
+    es8 b b b b d es f
+    es es es es f16( as) g( b) as( c) f,( as)
+    g( es') d( f) es8 es, g8. es16 d( b) d( b)
+    d4. d8 d4 c
+    es16( c) a'( es) c'( a) es'( c) c4 b %25
+    b16 f d'4 b8 d, g g f'
+    \appoggiatura f16 es8 es4 g8 f( a,) b a
+    b16( f) d f d( b') f c' \appoggiatura c8 b4 d,16( b') f c'
+    \appoggiatura c8 b4 f16 b b d g,4. g8
+    d d c c b16 f' d f b, d f b %30
+    d,8 d f d r c f c
+    r d b' f r c f c
+    r d b d r c a c
+    r d b d d'16 b d b a b a g
+    f c f c a' f a f c' a c a b d, f d %35
+    f c f c a' f a f c' a c a b d, f d
+    d' b d4 b8 d, g g f'
+    \appoggiatura f16 es8 es4 g8 f( a,) b a
+    b16( f) d f d( b') f c' \appoggiatura c8 b4 d,16( b') f c'
+    \appoggiatura c8 b4 f16(\fz b) b d g,4. g8 %40
+    d16 b d f es d es c d b'-!\f d-! f-! b-! f-! b-! d-!
+    c( b) a-! b-! c( a) f-! es-! d b-! d-! f-! b-! f-! b-! d-!
+    c( b) a-! b-! c( a) f es d d' d d d b c a
+    b f g es d b c a b b f( d) d' d b( f)
+    f' f d( b) d d b( f) as as f( d) f f d( as) %45
+    g es'-! g-! b-! es b es g f es d es f d b as
+    g es g b es b es g f es d es f d b as
+    g d\p es f g es f g as b c b \appoggiatura d c8 b16 as
+    g as g f es g f g as b c b \appoggiatura d c8 b16 as
+    g as g f es g f es f g as g \appoggiatura b as8 g16 f %50
+    es c b as g es' d es f\f g as g \appoggiatura b as8 g16 f
+    es f g f \appoggiatura as g8 f16 es c' b c as es d es as
+    es g as g f es f d es f g f es d c h
+    c c' es d c b! as g f( es) f-! f-! g( f) g-! g-!
+    es es es c' es, es es c c' c c as f f f d %55
+    es es es g es es es c es es es g f f f b,
+    es g g b g g g es g g g b g g g es
+    g g g es' b b b b, g' g g g' c, c c as
+    f f f f' b, b b g es es es es' as, as as f
+    es es es b' g g g es g g g g' es es es g, %60
+    b b b g' e e e b des des des b e e e g,
+    c c c f, c' c c as g g g b as as as f
+    g g g es c c c es d d f( d) d' d b( f)
+    f' f d( b) d d b( f) as! as f( d) f f d( as)
+    g es'-! g-! b-! es-! b-! es-! g-! f es d es f d b as %65
+    g es g b es b es g f es d es f d b as
+    g es g b es, es' d, d' g, c es g es c a es
+    d b' d f b f b d c b a b c a f es
+    d b d f b f d f d b d f b f d f
+    es b es ges b ges es b as'! d, f as b as f d %70
+    ges b, es ges b ges es b g' b, des g b g es des
+    c as c es as es c es as, es as c es c as c
+    es, g g es' f, d' es, c' d, d' d d f d d d
+    es es, es8\trill b( g') r16 f f8\trill as( as,)
+    r16 g b es g b es g r c,, es as c es as c %75
+    r b, es g b g es g b, b d f as f d f
+    es8 r es r <g, b> r <b as> r
+    <b g> r es g es <es, g,>16 q q8 q
+    q r <es b' g'> r <g, es' es'>4 r\fermata \bar "|." %79 finis
+  }
+}

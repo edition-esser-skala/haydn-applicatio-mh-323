@@ -6,7 +6,7 @@
 \include "ees_articulate.ly"
 
 
-FiliaPatri = \markup \remark "Filia Petri"
+FiliaPetri = \markup \remark "Filia Petri"
 LevitaPrimus = \markup \remark "Levita 1:mus"
 LevitaPrimusE = \markup \remarkE "Levita 1:mus"
 LevitaSecundus = \markup \remark "Levita 2:dus"
@@ -21,6 +21,8 @@ tempoCanticum = \tempoMarkup "Allegro"
 tempoIamScena = \tempoMarkup "[Recitativo]"
   tempoIamScenaB = \tempoMarkup "Andante"
 tempoAdeste = \tempoMarkup "Andante con moto"
+tempoLaudate = \tempoMarkup "Adagio non tanto"
+  tempoLaudateB = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/ob1.ly"

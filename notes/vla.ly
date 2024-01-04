@@ -348,3 +348,89 @@ AdesteViola = {
     b2\fermata \bar "||" %148 finis
   }
 }
+
+LaudateViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoLaudate
+    g4\f r8 b b4 r8 b
+    b r es, r b' es b b16. as32
+    \appoggiatura as16 g8 g r b\p b b b b
+    b4 r8 b\f b4 r8 b
+    b r es r es es es es %5
+    es es c b b g' b as
+    g es es es es c b b
+    b r b\p b es, b' es, b'
+    es, g'16(\f b) g( es) b( g) es8 es' c as
+    es' r f^\pizz r b, r es r %10
+    g,4 r g8 g as as
+    c c b b b r r d16(-\arco f)
+    es8 r r d16( f) es es es es f f f f
+    g g g g as as as as g g g g d d d d
+    es es g g es es f f b, b b b c c c c %15
+    d d d d b b b b es es es es f f f f
+    g g g g es es es es as, as c c b b b b
+    es es es es es es es es es8 es es es
+    es r es\p b es b es b
+    b4 \tempoLaudateB r r2 %20
+    r4 r8 g' f f es b
+    b4 r8 es es es es es
+    es es c c b b'16 a b f d f
+    b,8 f'4 f8 f2
+    f f %25
+    b8 b, b' as! g f es d
+    c es16 d c8 b! a es' d c
+    b b b' a b b, b' a
+    b b ,d b es h c es
+    f f f f b, b' f d %30
+    b b d b r a c a
+    r b f' d r a c a
+    r b f b r a f a
+    r b f b r f' f f,
+    f'2 f %35
+    f f
+    r8 b, b' as! g f es d
+    c es16 d c8 b! a es' d c
+    b b b' a b b, b' a
+    b b, d b es h c es %40
+    f f f f f4 r8 d'\f
+    a a a a b4 r8 d
+    a a a a b r f f
+    f b f es d f d' b
+    f' d b f as! f d b %45
+    es4 r8 g d d d d
+    es4 r8 g d d d d
+    es4 r8 es\p es4 r8 es
+    es4 r8 es es4 r8 es
+    es4 r8 b b4 r8 b %50
+    b4 r8 b b\f b b b
+    b b es es as, as c c
+    b b b b es g16 f es d c h
+    c c' es d c b! as g f( es) f-! f-! g( f) g-! g-!
+    as8 r as, r f r g r %55
+    g g g g es' es b! b
+    es4 r es r
+    es8 es g f e e f es
+    d d es d c c d d
+    es es es es des des des des %60
+    c c c c b b b b
+    as as f f b b b b
+    es r f r b f d' b
+    f' d b f as! f d b
+    es4 r8 g d d f f %65
+    b,4 r8 g' d d f d
+    es4 es8 f g g f f
+    f4 r8 d' a a a a
+    b b b b as as as as
+    ges ges ges ges f f f f %70
+    es es es es es es es es
+    as, as as as c c c c
+    b b b b b b b b
+    b4 r8 b b4 r8 b
+    b4 r8 b' es,4 r8 es %75
+    g b es, g b b b, b
+    c r as r b r b r
+    es r r4 es8 r r4
+    r es8 r es4 r\fermata \bar "|." %79 finis
+  }
+}
