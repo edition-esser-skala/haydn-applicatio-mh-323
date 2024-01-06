@@ -325,3 +325,165 @@ LaudateOboeII = {
     es r b' r g4 r\fermata \bar "|." %79 finis
   }
 }
+
+NecOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoNec
+    \partial 8 r8 a'4\fE h8. gis16
+    a4 r8 e
+    fis fis fis fis
+    e4 r8 e'
+    dis2 %5
+    e8( h) r a
+    gis a gis a
+    gis r r4
+    R2
+    r4 r8 e\p %10
+    e( a) r e
+    e( a) a16(\f cis) e( a)
+    \appoggiatura gis fis8 e16 d cis( h) e( gis,)
+    a8( e') a,16( cis) e( a)
+    \appoggiatura gis fis8 e16 d cis( h) e( gis,) %15
+    a8 r cis\p r
+    a r r4
+    R2*7 %24
+    a8 r a r %25
+    a r r4
+    R2*22 %48
+    e8.\f fis16 gis8 gis\p
+    a4 r %50
+    R2
+    h~
+    h~
+    h~
+    h~ %55
+    h4 r
+    e,8\f r e\p r
+    dis4 r
+    R2
+    e8.\fpE fis16 gis8 r %60
+    R2
+    e8.\fE fis16\p gis8 gis
+    a4 r
+    R2*2 %65
+    r8 e'\fz e e
+    e r r4
+    R2*2
+    e4\f fis8. dis16 %70
+    e4 r8 h
+    cis cis cis cis
+    h4 r8 h
+    cis cis cis cis
+    h4 r8 \once \slurDashed a16( fis) %75
+    gis16( e) cis'( a) gis( fis) h( dis,)
+    e8( h') h'16( e,) gis( e)
+    \appoggiatura dis cis8 h16 a gis( fis) h( dis,)
+    e8 r r4
+    R2 %80
+    gis8\p r a r
+    h r r4
+    R2
+    r4 e,8 e
+    gis r a r %85
+    h r r4
+    R2
+    r16 a cis h a8 r
+    R2*12 %100
+    r8. a16\f gis16. fis32 e16. gis32
+    a8 r h r
+    cis r r4
+    R2*5 %108
+    r8 a\f a r
+    a\p r d r %110
+    cis r r4
+    R2*5 %116
+    r4 gis8 r
+    r4 a8 r
+    r4 gis8 r
+    r4 a8 r %120
+    r4 gis8 r
+    r4 a8 r
+    r4 gis8 r
+    r a\f a r
+    R2*9 %133
+    a2\fp
+    d4 r %135
+    R2*6 %141
+    a8\f r a\p r
+    gis4 r
+    R2
+    a4\fE r %145
+    R2
+    d4 r
+    R2*2
+    r8 a\fz a e' %150
+    d4 r
+    R2*2
+    r8 cis\fz cis cis
+    cis r r4 %155
+    R2
+    a8\f r gis r
+    a4 h8. gis16
+    a4 r8 e
+    fis fis fis fis %160
+    e4 r8 e'
+    dis2
+    e8( h) r a\p
+    gis a gis a
+    gis r\fermata \tempoNecB r4 %165
+    R2
+    cis8 r r4
+    R2
+    cis8 r r4
+    d8 r r4 %170
+    cis8 r r4
+    R2*2
+    a8 r r4
+    h8 r r4 %175
+    a8 r r4
+    gis8 r a r
+    gis r h a
+    gis gis gis r
+    R2*5 %184
+    cis8 r r4 %185
+    R2
+    cis8 r r4
+    d8 r r4
+    cis8 r r4
+    a8 r r4 %190
+    h2
+    a8 r r4
+    R2
+    a8 r r4
+    R2 %195
+    a8 r r4
+    R2
+    a8 r r4
+    a8 r r4
+    cis8 r r4 %200
+    a8 r r4
+    h2
+    a8 r r4
+    R2*2 %205
+    cis2\fz
+    R2*3
+    cis2\fzE %210
+    R2*3
+    a4\f r8 a
+    gis gis gis gis %215
+    a4 r
+    R2
+    r4 r8 e\p
+    e( a) r e
+    e( a) a16(\fE cis) e( a) %220
+    \appoggiatura gis fis8 e16 d cis( h) e( gis,)
+    a8( e') a,16( cis) e( a)
+    \appoggiatura gis fis8 e16 d cis( h) \once \slurDashed e( gis,)
+    a8 r cis cis
+    cis cis e e %225
+    cis4 r
+    R2*2
+    R2\fermata \bar "|." %229 finis
+  }
+}

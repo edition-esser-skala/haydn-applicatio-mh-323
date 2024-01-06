@@ -317,3 +317,162 @@ LaudateCornoII = {
     c'8 c,16 c c8 c c4 r\fermata \bar "|." %79 finis
   }
 }
+
+NecCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoNec
+    \partial 8 r8 c'4\fE g
+    c, r8 c
+    c2
+    g'4 r8 g
+    c c c c %5
+    g4 r8 d'
+    g, d' g, d'
+    g,2~\p
+    g~
+    g~ %10
+    g
+    g4 r
+    r r8 g\f
+    g4 r
+    r r8 g %15
+    e r c\p r
+    c r r4
+    R2*7 %24
+    c8 r c r %25
+    c r r4
+    R2*22 %48
+    g2\f
+    c4\p r %50
+    R2*6 %56
+    g'8\f r g\p r
+    d'4 r
+    R2
+    g,,4\f r %60
+    R2
+    g
+    c4\p r
+    R2*2 %65
+    r8 g'\fz g g
+    d' r r4
+    R2*2
+    g,4\f d' %70
+    g,8 r r g
+    g2
+    d'4 r8 g,
+    g2
+    d'4 r %75
+    r r8 d
+    g,4 r
+    r r8 d'
+    g,4 r
+    R2 %80
+    g,8\p r g r
+    g r r4
+    R2
+    r4 g8 g
+    g r g r %85
+    g r r4
+    R2
+    r8 c c r
+    R2*12 %100
+    r4 g'8\f g
+    c,\p r c r
+    c r r4
+    R2*5 %108
+    r8 c\f c r
+    c\p r c r %110
+    c r r4
+    R2*5 %116
+    g2~\p
+    g
+    g~
+    g %120
+    g~
+    g
+    g
+    r8 c\f c r
+    R2*9 %133
+    c2\fp
+    c4 r %135
+    R2
+    g'2~\pp
+    g~
+    g~
+    g %140
+    g4 r
+    c,8\f r c\p r
+    g'4 r
+    R2
+    c,4\fE r %145
+    R2
+    c4 r
+    R2
+    r8 c\fz c c
+    c2 %150
+    c4 r
+    R2*2
+    r8 c\fz c c
+    g' r r4 %155
+    R2
+    g8\f r g r
+    c4 g
+    c, r8 c
+    c2 %160
+    g'4 r8 g
+    c c c c
+    g4 r8 d'\p
+    g, d' g, d'
+    g, r\fermata \tempoNecB r4 %165
+    R2
+    c,8 r r4
+    R2
+    c8 r r4
+    c8 r r4 %170
+    c8 r r4
+    R2*2
+    c8 r r4
+    g'8 r r4 %175
+    c,8 r r4
+    g'8 r g r
+    g r g r
+    g g g r
+    R2*5 %184
+    c,8 r r4 %185
+    R2
+    c8 r r4
+    R2*3 %190
+    g'2
+    c,8 r r4
+    R2
+    c8 r r4
+    R2 %195
+    c8 r r4
+    R2
+    c8 r r4
+    R2*3 %201
+    g'2
+    c,8 r r4
+    R2*2 %205
+    c2\fz
+    R2*3
+    c2\fzE %210
+    R2*3
+    g'4\f r8 g
+    g g g g %215
+    g2~\p
+    g~
+    g~
+    g
+    g4 r %220
+    r g8\f g
+    g4 r
+    r g8 g
+    e c c c
+    c c c c %225
+    c4 r
+    R2*2
+    R2\fermata \bar "|." %229 finis
+  }
+}

@@ -27,6 +27,8 @@ tempoDilecta = \tempoMarkup "[Recitativo]"
   tempoDilectaB = \tempoMarkup "Andante"
   tempoDilectaC = \tempoMarkup "Allegretto"
   tempoDilectaD = \tempoMarkup "Andante"
+tempoNec = \tempoMarkup "Andantino"
+  tempoNecB = \tempoMarkup "Allegro · à 3 voci"
 
 
 \include "notes/ob1.ly"

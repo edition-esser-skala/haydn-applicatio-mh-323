@@ -514,3 +514,239 @@ DilectaViola = {
     r r8 h, h4 r\fermata \bar "||" %75 finis
   }
 }
+
+NecViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoNec
+    \partial 8 r8 a\fE a' a, a'
+    a, a' r cis,
+    d d dis dis
+    e e, r h'
+    h dis' dis dis %5
+    e e, r h
+    h h h h
+    h r r4
+    r8 e\p a,( e)
+    r e a( e) %10
+    r e' a,( e)
+    r e a\f cis
+    d fis e e
+    e e16. d32 e8 cis
+    a fis' e e %15
+    e r a,\p r
+    a r r4
+    a' h8. gis16
+    a8 a, r cis
+    d d dis dis %20
+    e e, r e'
+    fis fis e e
+    d! d r d
+    cis fis d e
+    a, r a r %25
+    a a' a, a'
+    a, a' r cis,
+    d d dis dis
+    e e, r h'
+    dis fis e h %30
+    a a r a
+    gis cis cis h
+    h r gis' r
+    fis r dis r
+    e r gis r %35
+    fis r dis r
+    e r gis r
+    fis r dis r
+    e4 r8 cis
+    cis e dis e %40
+    r cis cis cis
+    h dis cis dis
+    r h h h
+    a a' r a
+    r h r h %45
+    r cis,\f r cis\p
+    fis, h h dis\fz
+    e fis h, h
+    h8. a16 gis8\p e'
+    e e e cis %50
+    h h h a
+    gis r r4
+    r8 h' e,( fis)
+    r h, e( h)
+    r h' e,( fis) %55
+    r e e r
+    cis\f r cis\p r
+    fis,4 h8 dis\fz
+    e fis h, h
+    h4\pE r8 dis16\fE dis %60
+    e e fis fis h, h h h
+    h8. a16\p gis8 e'
+    e e e cis
+    h h h a
+    gis r r4 %65
+    r8 cis\fz cis cis
+    h4\p r
+    r8 h' h h
+    h,16\fz h h h h h h h
+    e,8\f e' e, e' %70
+    e, e' r gis
+    a a ais ais
+    h h, r gis'
+    a! a ais ais
+    h h, r h %75
+    h e,16( cis') h8 h
+    h h16. a32 h8 h
+    r cis h h
+    h r h\p r
+    e, e' e, r %80
+    e' r e r
+    e r e d!
+    cis e cis a'
+    e r e e
+    e r e r %85
+    e r e d
+    cis e e e
+    r a, a fis'
+    fis a gis a
+    r fis fis fis %90
+    e gis fis gis
+    r e e e
+    r d r e
+    r d r fis\f
+    r h,\p r fis' %95
+    r h, r fis'
+    r gis, gis gis
+    h\fp e, r e'
+    e e r e
+    fis4 d8 fis %100
+    e8[ r16. fis32]\f e16. d32 cis16. h32
+    a4\p h8. gis16
+    a8 a' r cis,
+    d d dis dis
+    e e, r e' %105
+    d! d e e
+    fis d r d
+    cis fis d e
+    a,\f r a r
+    a\p a' a, a' %110
+    a, a' r cis,
+    d d dis dis
+    e e, r h'
+    dis fis e h
+    a a r a %115
+    gis cis cis h
+    h r gis' r
+    e r cis' r
+    h r gis r
+    e r cis' r %120
+    h r gis r
+    e r cis' r
+    h r gis r
+    r16 a\f e( cis) a8 fis'\p
+    fis a gis a %125
+    r fis fis fis
+    e gis fis gis
+    r e e e
+    d d r fis
+    r e r e %130
+    r fis,\f r fis'\p
+    h, e e gis,\fz
+    a h e, e
+    e4 r8 cis'\p
+    d d d d %135
+    e e e d
+    cis r r4
+    r8 e a,( e)
+    r e a( e)
+    r e' a,( h) %140
+    r a a r
+    fis'\f r fis\p r
+    h, e, e' gis,\fz
+    a h e, e
+    e4 r8 cis'\fzE %145
+    d e a, a
+    a d,\p r fis'
+    e e e e
+    e4 r8 cis\fz
+    d16( h) e( cis) fis( d) g( cis,) %150
+    d( a) a8 r fis'\p
+    e e e e
+    e r r4
+    r8 fis\fz fis fis
+    e\p r r4 %155
+    r8 e e e
+    e\fp e e\fp e
+    a,\f a' a, a'
+    a, a' r cis,
+    d d dis dis %160
+    e e, r h'
+    h dis' dis dis
+    e e, r h\p
+    h h h h
+    h r\fermata \tempoNecB r4 %165
+    R2
+    a'4 r
+    R2
+    a4 r8 a,
+    d e fis gis %170
+    a4 r8 e
+    e r e r
+    e4 r8 gis
+    a r a, r
+    e'4 r8 gis %175
+    a r a, r
+    e4 r
+    e r
+    e'8 e, r cis'
+    cis fis fis fis %180
+    fis4 r8 h,
+    h e e e
+    e4 r
+    R2
+    a4 r %185
+    R2
+    a4 r
+    d,, r
+    e r
+    fis r %190
+    gis8 e' e e
+    a4 r8 d,
+    e e e e
+    e4 r
+    R2 %195
+    a8 a, r4
+    R2
+    a'8 a, r4
+    d,8 fis' fis fis
+    e, a' a a %200
+    fis, a' a fis
+    gis, e' e e
+    a4 r8 d,
+    e e e e
+    e r r4 %205
+    r8 a,\fz a a
+    d4\p r8 d
+    e e e e
+    a,4 r
+    r8 a\fz a a %210
+    d4\p r8 d
+    e4 r
+    a r
+    e8\f e e e
+    e e e e %215
+    a, r r4
+    r8 e'\p a,( e)
+    r e a( e)
+    r e' a,( e)
+    r e a\f cis %220
+    d fis e e
+    e e16 d e8 cis
+    a fis' e e
+    e cis a a
+    a a a a %225
+    a r a'\p r
+    a r a r
+    a r a, r
+    a r r4\fermata \bar "|." %229 finis
+  }
+}

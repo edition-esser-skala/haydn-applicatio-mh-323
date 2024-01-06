@@ -327,3 +327,363 @@ LaudateSopranoLyrics = \lyricmode {
   tre --
   munt. %74 finis
 }
+
+NecSoprano = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \autoBeamOff \tempoNec
+    \partial 8 r8 R2*16 %16
+    r4 r8 \mvTr a'16.\p h32
+    cis8. a16 d8. h16
+    e8. cis16 a8 a16([ gis)]
+    fis8 h h h %20
+    h8. gis16 e8 e
+    d'4 cis
+    h16([ cis d e] fis[ cis)] d([ h)]
+    a4( h8.)\trill a16
+    a4 r %25
+    R2*7 %32
+    r4 e16([ gis)] h([ e)]
+    \appoggiatura e dis8 cis16([ h)] h8 h
+    \appoggiatura cis16 h8 a16([ gis)] gis8 e' %35
+    \appoggiatura e16 dis8 cis16([ h)] h8 h
+    \appoggiatura cis16 h8 a16([ gis)] gis8 e'
+    \appoggiatura e16 dis8 cis16([ h)] h8 h
+    h16 a gis8 r gis
+    gis gis a gis %40
+    cis([ fis,)] fis fis
+    fis fis gis fis
+    h([ e,)] e e
+    e cis' r4
+    fis,8 dis' r4 %45
+    e4~ e8. g,16
+    fis8 r r h
+    cis dis e fis
+    gis!8. dis16 e8 e
+    e8. cis16 e([ cis)] h([ a)] %50
+    gis4( fis8.)\trill e16
+    e4 r
+    e' h8 h
+    h gis r4
+    R2*2 %56
+    e'4~ e8. g,16
+    fis4 r8 h
+    cis dis e fis
+    gis!8. dis16 e8 h %60
+    cis dis e fis
+    gis8. dis16 e8 e
+    e8. cis16 e([ cis)] h([ a)]
+    gis4( fis8.)\trill e16
+    e8 e' e e %65
+    e4 gis,
+    gis8[ a16 h] cis[ dis e fis]
+    gis8[ e]~ e16[ h cis a]
+    gis4 fis8.\trill e16
+    e4 r %70
+    R2*9 %79
+    r4 r8 gis16 a %80
+    h8. gis16 cis8. a16
+    d!8. h16 gis8 e
+    a e a cis
+    e16 e, e8 r4
+    R2*3 %87
+    r4 r8 cis'
+    cis cis d cis
+    fis([ h,)] h h %90
+    h h cis h
+    e([ a,)] a ais
+    h r cis r
+    d4 dis8 r
+    e4. dis8 %95
+    e4. dis8
+    e4 fis~
+    fis8 e4 d!8
+    cis8.([ d16 e8)] e
+    e16([ d] fis4) \appoggiatura e16 d8 %100
+    \appoggiatura cis8 h4 r8 a16 h
+    cis8. a16 d8. h16
+    e8. cis16 a8 a16([ gis)]
+    fis8 h h h
+    h8. gis16 e8 e %105
+    d'4 cis
+    h16([ cis d e] fis[ cis)] d([ h)]
+    a4( h8.)\trill a16
+    a4 r
+    R2*7 %116
+    r4 e16([ gis)] h([ d!)]
+    \appoggiatura d cis8 h16([ a)] a8 cis
+    h8. e,16 e([ gis)] h([ d)]
+    \appoggiatura d cis8 h16([ a)] a8 cis %120
+    h8. e,16 e([ gis)] h([ d)]
+    \appoggiatura d cis8 h16([ a)] a8 cis
+    e2~
+    e16 d cis8 r cis
+    cis cis d cis %125
+    fis([ h,)] h h
+    h h cis h
+    e([ a,)] a a
+    a fis' r4
+    d8 h r4 %130
+    c4~ c8. c16
+    h8 r r e,
+    fis gis a h
+    cis!8. d16 e8 a,
+    a8. fis16 fis'([ d)] fis([ d)] %135
+    cis4( h8.)\trill a16
+    a4 r
+    R2*2
+    a4. e8 %140
+    cis' a r4
+    c~ c8. c16
+    h4 r8 e,
+    fis gis a h
+    cis!8. d16 e8 a, %145
+    h cis d e
+    fis4~ fis16[ d] fis([ d)]
+    cis4( d16[ cis d)] h
+    \appoggiatura h8 cis4 r8 a
+    h cis d e %150
+    fis4( a16[ fis)] fis([ d)]
+    cis4( h8.)\trill a16
+    a8 cis cis cis
+    cis4 cis
+    cis16[ e d cis] d[ e fis gis] %155
+    a8.[ e16] a[ e a e]
+    cis4 h8.\trill a16
+    a4 r
+    R2*6 %164
+    r4\fermata \tempoNecB r8 e %165
+    fis gis a h
+    cis8. d16 e8 e,
+    fis gis a h
+    cis8. d16 e8 a,
+    a fis' fis fis %170
+    e8. d16 cis8 cis
+    d h cis a
+    e'2~
+    e~
+    e~ %175
+    e~
+    e~
+    e4. e,8
+    e4 r8 e'
+    e d d cis %180
+    fis8. e16 d8 d
+    d cis cis h
+    e8. d16 cis8 e,
+    fis gis a h
+    cis8. d16 e8 e, %185
+    fis gis a h
+    cis8. d16 e8 r
+    fis2
+    e
+    dis %190
+    d
+    cis8 fis e d
+    cis4( h8.)\trill a16
+    a4 r8 e
+    fis gis a h %195
+    cis8. d16 e8 e,
+    fis gis a h
+    cis8. d16 e8 r
+    fis2
+    e %200
+    dis
+    d
+    cis8 fis e d
+    cis4( h8.)\trill a16
+    a8 e' e e %205
+    e2~
+    e8[ d] fis([ d)]
+    cis4 h\trill
+    cis8 e e e
+    e2~ %210
+    e8[ d] fis([ d)]
+    cis4 e~
+    e16[ d cis d] e[ a gis a]
+    cis,2
+    h4~\startTrillSpan h8. a16\stopTrillSpan %215
+    a4 r
+    R2*12 %228
+    R2\fermata \bar "|." %229 finis
+  }
+}
+
+NecSopranoLyrics = \lyricmode {
+  Nec a -- %17
+  la -- cri -- or a --
+  pi -- cu -- la ad
+  fa -- vum mel -- lis %20
+  re -- vo -- lat, ad
+  fa -- vum
+  mel -- lis
+  re -- vo --
+  lat, %25
+
+  nec a -- %33
+  la -- cri -- or a --
+  pi -- cu -- la ad %35
+  fa -- vum mel -- lis
+  re -- vo -- lat, ad
+  fa -- vum mel -- lis
+  re -- vo -- lat, quam
+  Be -- da re -- no -- %40
+  va -- tis pro --
+  mis -- sis coe -- lo
+  da -- tis su --
+  spi -- rat
+  ar -- det %45
+  in -- ge --
+  mit DE --
+  o -- que jun -- gi
+  ex -- pe -- tit, DE --
+  o -- que jun -- gi %50
+  ex -- pe --
+  tit,
+  Be -- da su --
+  spi -- rat
+
+  in -- ge -- %57
+  mit, su --
+  spi -- rat ar -- det
+  in -- ge -- mit DE -- %60
+  o -- que jun -- gi
+  ex -- pe -- tit, DE --
+  o -- que jun -- gi
+  ex -- pe --
+  tit, DE -- o -- que %65
+  jun -- gi
+  ex -- _
+  _
+  _ _ pe --
+  tit. %70
+
+  Nec a -- %80
+  la -- cri -- or a --
+  pi -- cu -- la ad
+  fa -- vum mel -- lis
+  re -- vo -- lat,
+
+  quam %88
+  Be -- da re -- no --
+  va -- tis pro -- %90
+  mis -- sis coe -- lo
+  da -- tis su --
+  spi -- rat
+  ar -- det
+  in -- _ %95
+  _ ge --
+  mit DE --
+  o -- que
+  jun -- gi
+  ex -- pe -- %100
+  tit. Nec a --
+  la -- cri -- or a --
+  pi -- cu -- la ad
+  fa -- vum mel -- lis
+  re -- vo -- lat, ad %105
+  fa -- vum
+  mel -- lis
+  re -- vo --
+  lat,
+
+  nec a -- %117
+  la -- cri -- or a --
+  pi -- cu -- la ad
+  fa -- vum mel -- lis %120
+  re -- vo -- lat, ad
+  fa -- vum mel -- lis
+  re --
+  vo -- lat, quam
+  Be -- da re -- no -- %125
+  va -- tis pro --
+  mis -- sis coe -- lo
+  da -- tis su --
+  spi -- rat
+  ar -- det %130
+  in -- ge --
+  mit DE --
+  o -- que jun -- gi
+  ex -- pe -- tit, DE --
+  o -- que jun -- gi %135
+  ex -- pe --
+  tit,
+
+  Be -- da %140
+  ar -- det
+  in -- ge --
+  mit, su --
+  spi -- rat ar -- det
+  in -- ge -- mit DE -- %145
+  o -- que jun -- gi,
+  jun -- gi
+  ex -- pe --
+  tit, DE --
+  o -- que jun -- gi, %150
+  jun -- gi
+  ex -- pe --
+  tit, DE -- o -- que
+  jun -- gi
+  ex -- _ %155
+  _ _
+  _ _ pe --
+  tit.
+
+  Se -- %165
+  cun -- dis Prae -- sul
+  nu -- pti -- is cum
+  coe -- lo cum se
+  co -- pu -- lat spem
+  ad Rud -- ber -- ti %170
+  fi -- li -- is pro --
+  mis -- sa da -- ta
+  re --
+
+  no -- %178
+  vat, se --
+  cun -- dis Prae -- sul %180
+  nu -- pti -- is cum
+  coe -- lo cum se
+  co -- pu -- lat spem
+  ad Rud -- ber -- ti
+  fi -- li -- is pro -- %185
+  mis -- sa da -- ta
+  re -- no -- vat,
+  pro --
+  mis --
+  sa, %190
+  pro --
+  mis -- sa da -- ta
+  re -- no --
+  vat, spem
+  ad Rud -- ber -- ti %195
+  fi -- li -- is pro --
+  mis -- sa da -- ta
+  re -- no -- vat,
+  pro --
+  mis -- %200
+  sa,
+  pro --
+  mis -- sa da -- ta
+  re -- no --
+  vat, pro -- mis -- sa %205
+  da --
+  ta __
+  re -- no --
+  vat, pro -- mis -- sa
+  da -- %210
+  ta __
+  re -- _
+  _
+  _
+  _ no -- %215
+  vat. %216 finis
+}
+
+
+% Nec a -- la -- cri -- or a -- pi -- cu -- la ad fa -- vum mel -- lis re -- vo -- lat,
+%   nec a -- vi -- di -- or na -- vi -- cu -- la ad por -- tum re -- mis pro -- pe -- rat,
+%   quam Be -- da re -- no -- va -- tis pro -- mis -- sis coe -- lo da -- tis
+%   su -- spi -- rat ar -- det in -- ge -- mit DE -- o -- que jun -- gi ex -- pe -- tit.
+% Se -- cun -- dis Prae -- sul nu -- pti -- is cum coe -- lo cum se co -- pu -- lat
+%   spem ad Rud -- ber -- ti fi -- li -- is pro -- mis -- sa da -- ta re -- no -- vat.

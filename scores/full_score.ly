@@ -290,57 +290,132 @@
   %   }
   % }
   % \part "secunda" "3" "Applicationis Pars 2:da"
+  % \bookpart {
+  %   \section "3.1" "Recitativo" "Dilecta mater!"
+  %   \addTocLabel "Dilecta"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DilectaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DilectaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DilectaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \DilectaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DilectaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
+  %           % \transpose c c,
+  %           \DilectaCembalo
+  %         }
+  %       >>
+  %       \new FiguredBass { \DilectaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "3.1" "Recitativo" "Dilecta mater!"
-    \addTocLabel "Dilecta"
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-    }
+    \section "3.2" "Duetto" "Nec alacrior apicula"
+    \addTocLabel "Nec"
+    \paper { indent = 2\cm }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DilectaViolinoI
+              \NecOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DilectaViolinoII
+              \NecOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+            % \transpose c a,
+            \partCombine #'(0 . 10) \NecCornoI \NecCornoII
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \NecViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \NecViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DilectaViola
+            \NecViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \DilectaSoli }
+            \set Staff.instrumentName = "Levita 1:mus"
+            \new Voice = "Soprano" { \dynamicUp \NecSoprano }
           }
-          \new Lyrics \lyricsto Soli \DilectaSoliLyrics
+          \new Lyrics \lyricsto Soprano \NecSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Levita 2:dus"
+            \new Voice = "AltoI" { \dynamicUp \NecAltoI }
+          }
+          \new Lyrics \lyricsto AltoI \NecAltoILyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Filia Petri"
+            \new Voice = "AltoII" { \dynamicUp \NecAltoII }
+          }
+          \new Lyrics \lyricsto AltoII \NecAltoIILyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
             % \transpose c c,
-            \DilectaCembalo
+            \NecCembalo
           }
         >>
-        \new FiguredBass { \DilectaBassFigures }
+        \new FiguredBass { \NecBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 70 } % 120
     }
   }
 }
