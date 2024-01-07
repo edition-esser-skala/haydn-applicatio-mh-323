@@ -754,3 +754,30 @@ NecViolinoII = {
     cis( a) r4\fermata \bar "|." %229 finis
   }
 }
+
+OQuamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOQuam
+    R1*8 %8
+    <e g,>16\p q8 q q q16 << { g g8 g g g16 } \\ { g,2 } >>
+    << { f'16 f8 f f d16 } \\ { \mvDrh g,2\fz } >> c~\p %10
+    c1
+    << { e16 e8 e e e16 f f8 f f d16 } \\ { g,2 \mvDrh g\fz } >>
+    \appoggiatura d'8 c4 r r2
+    b'2\p << { a16 a8 a a a16 } \\ { c,2 } >>
+    << { b'16 b8 b b g16 } \\ { \mvDrh c,2\fz } >> f~\p %15
+    f g~
+    g8 c,16 h! c( d) e( f) g g8 g g g16~
+    g g8 g g g16 f f8 f f f16
+    d d8 d d d16 f f8 f16 c c8 c16
+    b8( g') f( e) f16 <d a>8 q q q16 %20
+    q4 r fis\f r
+    d' r r2
+    a4 r r2
+    a4 r r2
+    r r4 h %25
+    d r r2
+    r4 e, fis r\fermata \bar "||" %27 finis
+  }
+}

@@ -750,3 +750,30 @@ NecViola = {
     a r r4\fermata \bar "|." %229 finis
   }
 }
+
+OQuamViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoOQuam
+    R1*8 %8
+    c16\p c8 c c c16 d d8 d d d16~
+    d\fz d8 d d d16 g,2~\p %10
+    g1
+    c16 c8 c c c16 d\fz d8 d d d16
+    g,4 r r2
+    g'\p f16 f8 f f f16
+    g\fz g8 g g g16 c,2~\p %15
+    c c~
+    c4 r c,16 c8 c c c16~
+    c c8 c c c16 f f8 f c' c16
+    b b8 b b b16 a a8 a a a16
+    b8( d) c b a16 d,8 d d d16 %20
+    d4 r a''\f r
+    g r r2
+    cis,4 r r2
+    d4 r r2
+    r r4 g %25
+    g, r r2
+    r4 a a r\fermata \bar "||" %27 finis
+  }
+}

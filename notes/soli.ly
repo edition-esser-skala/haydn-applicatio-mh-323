@@ -493,3 +493,67 @@ DilectaSoliLyrics = \lyricmode {
   a -- mus: at nun -- quam
   ad -- se -- qui. %75 finis
 }
+
+OQuamSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoOQuam
+    a'8 e16 e g8 fis d16 d d8 r4
+    a'8. d,16 d8 r fis fis16 fis fis8 fis16 g
+    a8 a r4 a8 a16 a a8 h
+    c!8. c16 c8 h g g r4
+    g g8 g g4 d %5
+    f!8 f f g e8. e16 e4
+    b' b8 c a a r4
+    h16 h h8 r16 h h c c8 g r4
+    \tempoOQuamB R1
+    r2 r4 r8 g %10
+    g g c h c16 c c8 r16 c c g
+    e8 e r4 r2
+    r4 e g16 g g8 g a
+    b b16 b b8 c a a r4
+    r2 c,8 c16 c f8 e %15
+    f f r16 f g a g g g8 r g
+    g c, r4 b'4. g16 f
+    e8 e e c' a16 a a8 r4
+    d8 b16 a g8 d' c8. \appoggiatura b32 a16 \appoggiatura g f8 a16 f
+    \appoggiatura e d8 b'16([ g)] f8([ \grace a32 g16)] f f4 r %20
+    r r8 a fis16 fis fis8 r a16 d,
+    g8 g r4 g a8 h!
+    a a r4 g8 g16 g g8 a
+    fis16 fis fis8 r4 fis fis8 g
+    a4 a8 d h8. h16 h4 %25
+    r h g8 g16 g g8 fis
+    d d r4 r2\fermata \bar "||" %27 finis
+  }
+}
+
+OQuamSoliLyrics = \lyricmode {
+  O quam pla -- ce -- tis fi -- li -- i!
+  Su -- per -- est, pi -- o ut hu -- ic Pa --
+  ren -- ti Nu -- pti -- as A -- gni
+  al -- te -- ras pre -- ce -- mur,
+  ut Ju -- bi -- lae -- us %5
+  ad al -- ta -- re im -- mo -- let
+  A -- gnum sa -- cer -- dos,
+  se -- ni -- or et no -- strum De -- cus.
+
+  Su -- %10
+  pre -- me re -- rum Con -- di -- tor, et Au -- ctor
+  DE -- us!
+  Hunc fi -- li -- is at -- que
+  mi -- hi con -- ser -- va Pa -- trem,
+  fac, ne Pro -- phe -- tae %15
+  ver -- ba sint un -- quam ir -- ri -- ta ca --
+  nen -- tis: Ec -- ce quam
+  bo -- num sit et e -- le -- gans
+  fra -- tres in u -- num vi -- ve -- re, et a --
+  ma -- ri in -- vi -- cem. %20
+  Jam Po -- pu -- le me -- cum
+  plau -- de, qui tan -- ti
+  Pa -- tris mul -- to fa -- vo -- re
+  fru -- e -- ris, et tu -- um
+  quo -- que ex -- per -- tus es, %25
+  per -- sae -- pe cle -- men -- tem
+  Pa -- trem. %27 finis
+}

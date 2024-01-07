@@ -15,6 +15,7 @@ SacerdosPrimus = \markup \remark "Sacerdos 1:mus"
 SacerdosPrimusE = \markup \remarkE "Sacerdos 1:mus"
 SacerdosSecundus = \markup \remark "Sacerdos 2:dus"
 SacerdosSecundusE = \markup \remarkE "Sacerdos 2:dus"
+mvDrh = \once \override DynamicText.X-offset = #1
 
 
 tempoCanticum = \tempoMarkup "Allegro"
@@ -29,6 +30,8 @@ tempoDilecta = \tempoMarkup "[Recitativo]"
   tempoDilectaD = \tempoMarkup "Andante"
 tempoNec = \tempoMarkup "Andantino"
   tempoNecB = \tempoMarkup "Allegro · à 3 voci"
+tempoOQuam = \tempoMarkup "[Recitativo]"
+  tempoOQuamB = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

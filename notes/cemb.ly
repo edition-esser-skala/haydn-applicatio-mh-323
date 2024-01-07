@@ -1480,3 +1480,67 @@ NecBassFigures = \figuremode {
   r
   r %229 finis
 }
+
+OQuamCembalo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOQuam
+    cis2\pE d~
+    d1
+    c!~
+    c2 h~
+    h1~ %5
+    h2 c~
+    c f~
+    f r4 g
+    \tempoOQuamB \mvTr c,8\p-\markup \remark "sostenuto" e g e h d g d
+    g,\fz h d h c2~\p %10
+    c1
+    c8 e g e h\fz d g h,
+    c4 r r2
+    c\p f8 a c a
+    e\fz g c e, f2~\p %15
+    f e~
+    e4 r c8 e g e
+    c e g e f a c a,
+    b d g b, a c f a,
+    b g c c d d d d %20
+    d4 r c\f r
+    h! r r2
+    cis4 r r2
+    d4 r r2
+    r r4 g %25
+    g, r r2
+    r4 a d r\fermata \bar "||" %27 finis
+  }
+}
+
+OQuamBassFigures = \figuremode {
+  <6>2 <_+>
+  r1
+  <4\+ 2>
+  r2 <6>
+  r1 %5
+  <5!>
+  <7->
+  <4! 2>
+  r2 <6>
+  <7>1 %10
+  r
+  r2 <6 5>
+  <9 4>8 <8 3>2..
+  <7->1
+  <6 5-> %15
+  r2 <6>
+  r <7->
+  r1
+  <6>2 q
+  q8 <_-> <6 4> <7- 3> r2 %20
+  <4>8 <3>4. <4\+ 2>2
+  <6>1
+  q
+  <_+>
+  r %25
+  r
+  r4 <_+> q2 %27 finis
+}

@@ -343,79 +343,132 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3.2" "Duetto" "Nec alacrior apicula"
+  %   \addTocLabel "Nec"
+  %   \paper { indent = 2\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \NecOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \NecOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+  %           % \transpose c a,
+  %           \partCombine #'(0 . 10) \NecCornoI \NecCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \NecViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \NecViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \NecViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Levita 1:mus"
+  %           \new Voice = "Soprano" { \dynamicUp \NecSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \NecSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Levita 2:dus"
+  %           \new Voice = "AltoI" { \dynamicUp \NecAltoI }
+  %         }
+  %         \new Lyrics \lyricsto AltoI \NecAltoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Filia Petri"
+  %           \new Voice = "AltoII" { \dynamicUp \NecAltoII }
+  %         }
+  %         \new Lyrics \lyricsto AltoII \NecAltoIILyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
+  %           % \transpose c c,
+  %           \NecCembalo
+  %         }
+  %       >>
+  %       \new FiguredBass { \NecBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 } % 120
+  %   }
+  % }
   \bookpart {
-    \section "3.2" "Duetto" "Nec alacrior apicula"
-    \addTocLabel "Nec"
-    \paper { indent = 2\cm }
+    \section "3.3" "Recitativo" "O quam placetis filii!"
+    \addTocLabel "OQuam"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
+    }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \NecOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \NecOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
-            % \transpose c a,
-            \partCombine #'(0 . 10) \NecCornoI \NecCornoII
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \NecViolinoI
+              \OQuamViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \NecViolinoII
+              \OQuamViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \NecViola
+            \OQuamViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "Levita 1:mus"
-            \new Voice = "Soprano" { \dynamicUp \NecSoprano }
+            \set Staff.instrumentName = \markup \center-column { "Filia" "Petri" }
+            \new Voice = "Soli" { \dynamicUp \OQuamSoli }
           }
-          \new Lyrics \lyricsto Soprano \NecSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Levita 2:dus"
-            \new Voice = "AltoI" { \dynamicUp \NecAltoI }
-          }
-          \new Lyrics \lyricsto AltoI \NecAltoILyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Filia Petri"
-            \new Voice = "AltoII" { \dynamicUp \NecAltoII }
-          }
-          \new Lyrics \lyricsto AltoII \NecAltoIILyrics
+          \new Lyrics \lyricsto Soli \OQuamSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
             % \transpose c c,
-            \NecCembalo
+            \OQuamCembalo
           }
         >>
-        \new FiguredBass { \NecBassFigures }
+        \new FiguredBass { \OQuamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 } % 120
+      \midi { \tempo 4 = 70 }
     }
   }
 }
