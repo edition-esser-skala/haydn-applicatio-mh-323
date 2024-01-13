@@ -4,7 +4,7 @@ composer:
 title: Applicatio
 id: MH 323
 genre: cantata
-scoring: S, 2 A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (\flat B basso/\flat E/G/A), 2 clno (), 2 v, vla, b, cemb
+scoring: S, 2 A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (\flat B basso/\flat E/G/A), 2 clno (D), 2 v, vla, b, cemb
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -16,5 +16,5 @@ sources:
     principal: true
 imslp:
 parts:
-  cor12: Corno I, II in ???
-  clno12: Clarino I, II in ???
+  cor12: Corno I, II in \flat B basso/\flat E/G/A
+  clno12: Clarino I, II in D

@@ -491,3 +491,264 @@ NecOboeI = {
     R2\fermata \bar "|." %229 finis
   }
 }
+
+ClangiteOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoClangite
+    r4 a'\fE a
+    fis'2.
+    r4 a, a
+    g'2.
+    r4 a, cis %5
+    d a cis
+    d a' h
+    a r a
+    g fis e
+    a2. %10
+    g4 fis e
+    d a fis
+    d a' a
+    fis'2.
+    r4 a, a %15
+    g'2.
+    r4 a, cis
+    d a cis
+    d a' a
+    h r d, %20
+    cis2 g4
+    g fis r
+    h2.
+    a4 d fis
+    e2 cis4 %25
+    d a a
+    a2.
+    h2 cis4
+    d2.
+    d2 cis4 %30
+    h2.
+    cis
+    d
+    cis
+    h %35
+    cis
+    h
+    a4 r a'
+    gis r h
+    cis r cis %40
+    d r d,
+    cis8. a'16 d4 gis,
+    a r r
+    e2 fis4
+    e r r %45
+    e2 fis4
+    e e fis
+    e r e
+    fis a, a
+    fis'2. %50
+    r4 a, a
+    g'2.
+    r4 a, cis
+    d a cis
+    d a' a %55
+    h r d,
+    cis2 g4
+    g fis r
+    h2.
+    a4 d fis %60
+    e2 cis4
+    d r r
+    fis2.
+    fis
+    dis %65
+    e
+    cis
+    d!
+    g2 fis4
+    fis e r %70
+    cis2 d4
+    cis g' fis
+    cis2 d4
+    cis g' fis
+    cis2 d4 %75
+    a g g
+    g r r
+    h'4. a8 g4
+    fis8 g a fis h g
+    fis2 e4 %80
+    d a a
+    fis'2.
+    r4 a, a
+    g'2.
+    r4 a, a %85
+    fis'2.
+    r4 a, a
+    g'2.
+    r4 fis d
+    e2. %90
+    fis
+    g
+    a
+    h
+    a4 d,8 fis e d %95
+    cis4 r r
+    cis2 d4
+    cis g' fis
+    cis2 d4
+    cis g' fis %100
+    cis2 d4
+    a g g
+    g r r
+    h'4. a8 g4
+    fis8 g a fis h g %105
+    fis2 e4
+    d r d
+    e2.
+    fis
+    g %110
+    fis
+    e
+    fis
+    e
+    d4 r fis %115
+    g h e,
+    fis r fis
+    g h e,
+    d r r
+    a' a h %120
+    a r a
+    g fis e
+    a2.
+    g4 fis e
+    d a fis %125
+    d r r \noBreak
+    R2.
+    \key g \major R2.*3 %130
+    r4 h'\p h
+    h r r
+    R2.*2
+    r4 h h %135
+    h r r
+    R2.*2
+    r4 g'\f g
+    g r r %140
+    R2.*6 %146
+    r4 d\fE d
+    d2.~\p
+    d
+    d~ %150
+    d
+    d,4 e'\fzE d
+    \appoggiatura d8 c4 r r
+    R2.*11 %164
+    h'2.\f %165
+    a8 d, cis( d) cis( d)
+    d2.~\p
+    d
+    d~
+    d %170
+    d,4 e'\fz d
+    \appoggiatura d8 c4 r r
+    R2.*5 %177
+    f2.\p
+    e
+    fis! %180
+    g8 fis g d e c
+    h2.\f
+    a
+    g4 r r
+    r g\p g %185
+    r fis fis
+    r g g
+    r fis fis \noBreak
+    r gis gis
+    \key d \major r a a \noBreak %190
+    r d\fz d
+    d2.
+    cis4 r r
+    e\f r r
+    e r r %195
+    r8 h a g fis e
+    d4 a' a
+    fis'2.
+    r4 a, a
+    g'2. %200
+    r4 a, cis
+    d a cis
+    d a' a
+    h r d,
+    cis2 g4 %205
+    g fis r
+    h2.
+    a4 d fis
+    e2 cis4
+    d r r %210
+    fis2.
+    fis
+    dis
+    e
+    cis %215
+    d!
+    g2 fis4
+    fis e r
+    cis2 d4
+    cis g' fis %220
+    cis2 d4
+    cis g' fis
+    cis2 d4
+    a g g
+    g r r %225
+    h'4. a8 g4
+    fis8 g a fis h g
+    fis2 e4
+    d a a
+    fis'2. %230
+    r4 a, a
+    g'2.
+    r4 a, a
+    fis'2.
+    r4 a, a %235
+    g'2.
+    r4 fis d
+    e2.
+    fis
+    g %240
+    a
+    h
+    a4 d,8 fis e d
+    cis4 r r
+    cis2 d4 %245
+    cis g' fis
+    cis2 d4
+    cis g' fis
+    cis2 d4
+    a g g %250
+    g r r
+    h'4. a8 g4
+    fis8 g a fis h g
+    fis2 e4
+    d r d %255
+    e2.
+    fis
+    g
+    fis
+    e %260
+    fis
+    e
+    d4 r fis
+    g h e,
+    fis r fis %265
+    g h e,
+    d r r
+    a' a h
+    a r a
+    g fis e %270
+    a2.
+    g4 fis e
+    d a fis
+    d r r
+    fis' r r %275
+    d8. d16 fis,8. fis16 a8. a16
+    d,4 r r\fermata \bar "|." %277 finis
+  }
+}

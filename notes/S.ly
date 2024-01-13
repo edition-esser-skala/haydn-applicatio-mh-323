@@ -680,10 +680,537 @@ NecSopranoLyrics = \lyricmode {
   vat. %216 finis
 }
 
+ClangiteSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoClangite
+    R2.*12 %12
+    r4 \mvTr a'\fE^\tuttiE fis8 a
+    d4. e8 fis4
+    r e a,8 cis %15
+    e4. fis8 g4
+    r fis cis
+    d4. a8 a4
+    d2.
+    h2 d4 %20
+    a4. h8 g4
+    g fis r
+    h2.
+    a4 d( fis)
+    e4. g8 cis,4 %25
+    d d, r
+    fis' fis fis
+    h,4. h8 cis4
+    d d d
+    d4. d8 cis4 %30
+    h2.
+    cis2 cis4
+    d2.
+    cis
+    h4 h h %35
+    cis2.
+    h
+    a4 r r
+    R2.*4 %42
+    r4 e' fis8 d
+    e8. a,16 a4 r
+    r e' fis8 d %45
+    e8. a,16 a4 r
+    R2.*2
+    r4 a fis8 a
+    d4. e8 fis4 %50
+    r e a,8 cis
+    e4. fis8 g4
+    fis fis cis
+    d4. a8 a4
+    d2. %55
+    h4 h( d)
+    a4. h8 g4
+    g fis r
+    h2.
+    a4 d( fis) %60
+    e4. g8 cis,4
+    d d, r
+    h' d h
+    fis'4. fis,8 fis4
+    dis' dis dis %65
+    e4. e,8 e4
+    cis' cis cis
+    d!2 a4
+    g4. g8 fis4
+    fis e r %70
+    e' cis d
+    g4. e8 fis4
+    e cis d
+    g4. e8 fis4
+    cis cis d %75
+    e8([ g,)] g4 r
+    R2.
+    h4. a8 g4
+    fis8([ g a fis)] h g
+    fis2( e4) %80
+    d r r
+    R2.*3
+    r4 a' fis8 a %85
+    d4. e8 fis4
+    r e a,8 cis
+    e4. fis8 g4
+    r a,2
+    a a4 %90
+    a4. a8 a4
+    cis2 cis4
+    d r r
+    d r r
+    d d8([ fis)] e d %95
+    \appoggiatura d16 cis8([ h16 a)] a4 r
+    e' cis d
+    g4. e8 fis4
+    e cis d
+    g4. e8 fis4 %100
+    cis cis d
+    e8([ g,)] g4 r
+    R2.
+    h4. a8 g4
+    fis8([ g a fis)] h g %105
+    fis2( e4)
+    d d' d8 d
+    d2.
+    d
+    d2~ d8 d %110
+    d2.
+    d4. d8 e4
+    fis2.
+    e
+    d4 fis8([ d)] fis d %115
+    g2( cis,4)
+    d fis8([ d)] fis d
+    g2( cis,4)
+    d r r
+    R2.*8 %127
+    \key g \major R2.*8^\LevitaPrimus_\LevitaSecundus %135
+    << \context Voice = "Soprano" {
+      \voiceOne d2.^\pE
+      d4( g) d
+      c( h) a
+      h8. a16 g4 r
+      d' d4. h8 %140
+      h4 a r
+      \appoggiatura d8 c4 c r
+      c h r8 h
+      d4 h r
+      d h r %145
+      g'2~ g8 h,
+      a4 r r
+      d, c' h
+      a d, r
+      d c' h %150
+      a d, r
+      d e' d
+      \appoggiatura d8 c4 c2
+      c2.
+      h4( c) d %155
+      e8([ h c d)] e([ c)]
+      h2( a8.) g16
+      g4 r d'
+      cis e g
+      fis d r %160
+      cis( e) g
+      fis d r
+      cis( e) g
+      fis8. d16 d4 r
+      g,2 h4 %165
+      d r r
+      d, c'! h
+      a d, r
+      d c' h
+      a d, r %170
+      d e' d
+      \appoggiatura d8 c4 c2
+      c2.
+      h4( c) d
+      e8([ h c d)] e([ c)] %175
+      h2( a8.) g16
+      g4 r r
+      f'2.
+      e
+      fis! %180
+      g8([ fis g d)] e([ c)]
+      h2.
+      a2~\startTrillSpan a8. g16\stopTrillSpan
+      g4 r h
+      \appoggiatura a8 g2. %185
+      fis4 r fis
+      g2.
+      fis4 r r \noBreak
+      gis2.
+      \key d \major a4 r r \noBreak %190
+      d2.~
+      d2 d4
+      cis r r \oneVoice
+    } \\ { \autoBeamOff
+      \mvDl h2._\pE
+      h2 h4
+      a( g) fis
+      g8. fis16 g4 r
+      h h4. g8 %140
+      g4 fis r
+      a a r
+      a g r8 g
+      h4 g r
+      h g r %145
+      h2~ h8 g
+      fis4 r r
+      d a' g
+      fis d r
+      d a' g %150
+      fis d r
+      d c' h
+      \appoggiatura h8 a4 a2
+      a2.
+      g4( a) h %155
+      c8([ gis a h)] c([ a)]
+      g!2( fis8.) g16
+      g4 r h
+      g e cis
+      d a r %160
+      g'( e) cis
+      d a r
+      g'( e) cis
+      d8. a16 a4 r
+      g'2 h4 %165
+      d r r
+      d, a' g
+      fis d r
+      d a' g
+      fis d r %170
+      d c' h
+      \appoggiatura h8 a4 a2
+      a2.
+      g4( a) h
+      c8([ gis a h)] c([ a)] %175
+      g!2( fis8.) g16
+      g4 r r
+      h2.
+      c
+      c %180
+      h2 c8([ a)]
+      g2.
+      fis2~\startTrillSpan fis8. g16\stopTrillSpan
+      g4 r g
+      e2. %185
+      d4 r d
+      e2.
+      d4 r r
+      e2.
+      e4 r r %190
+      h h'2~
+      h h4
+      a r r
+    } >>
+    R2.*3 %196
+    r4 \mvTr a\fE^\tutti fis8 a
+    d4. e8 fis4
+    r e a,8 cis
+    e4. fis8 g4 %200
+    fis fis cis
+    d4. a8 a4
+    d2.
+    h4 h( d)
+    a4. h8 g4 %205
+    g fis r
+    h2.
+    a4 d( fis)
+    e4. g8 cis,4
+    d d, r %210
+    h' d h
+    fis'4. fis,8 fis4
+    dis' dis dis
+    e4. e,8 e4
+    cis' cis cis %215
+    d!2 a4
+    g4. g8 fis4
+    fis e r
+    e' cis d
+    g4. e8 fis4 %220
+    e cis d
+    g4. e8 fis4
+    cis cis d
+    e8([ g,)] g4 r
+    R2. %225
+    h4. a8 g4
+    fis8([ g a fis)] h g
+    fis2( e4)
+    d r r
+    R2.*3 %232
+    r4 a' fis8 a
+    d4. e8 fis4
+    r e a,8 cis %235
+    e4. fis8 g4
+    r a,2
+    a a4
+    a4. a8 a4
+    cis2 cis4 %240
+    d r r
+    d r r
+    d d8([ fis)] e d
+    \appoggiatura d16 cis8([ h16 a)] a4 r
+    e' cis d %245
+    g4. e8 fis4
+    e cis d
+    g4. e8 fis4
+    cis cis d
+    e8([ g,)] g4 r %250
+    R2.
+    h4. a8 g4
+    fis8([ g a fis)] h g
+    fis2( e4)
+    d d' d8 d %255
+    d2.
+    d
+    d2~ d8 d
+    d2.
+    d4. d8 e4 %260
+    fis2.
+    e
+    d4 fis8([ d)] fis d
+    g2( cis,4)
+    d fis8([ d)] fis d %265
+    g2( cis,4)
+    d r r
+    R2.*9 %276
+    R2.\fermata \bar "|." %277 finis
+  }
+}
 
-% Nec a -- la -- cri -- or a -- pi -- cu -- la ad fa -- vum mel -- lis re -- vo -- lat,
-%   nec a -- vi -- di -- or na -- vi -- cu -- la ad por -- tum re -- mis pro -- pe -- rat,
-%   quam Be -- da re -- no -- va -- tis pro -- mis -- sis coe -- lo da -- tis
-%   su -- spi -- rat ar -- det in -- ge -- mit DE -- o -- que jun -- gi ex -- pe -- tit.
-% Se -- cun -- dis Prae -- sul nu -- pti -- is cum coe -- lo cum se co -- pu -- lat
-%   spem ad Rud -- ber -- ti fi -- li -- is pro -- mis -- sa da -- ta re -- no -- vat.
+ClangiteSopranoLyrics = \lyricmode {
+  Clan -- gi -- te %13
+  buc -- ci -- nis,
+  pro -- mi -- te %15
+  can -- ti -- bus
+  di -- gnis
+  lau -- di -- bus
+  fe --
+  sta bis %20
+  sex -- tu -- pla
+  Pa -- tris,
+  fe --
+  sta bis __
+  sex -- tu -- pla %25
+  Pa -- tris,
+  qui pri -- mus
+  o -- mni -- um
+  hoc mo -- na --
+  ste -- ri -- um %30
+  ex
+  Be -- ne --
+  di --
+  cti
+  cu -- nis e -- %35
+  re --
+  _
+  xit.
+
+  Clan -- gi -- te %43
+  buc -- ci -- nis,
+  clan -- gi -- te %45
+  buc -- ci -- nis.
+
+  Plau -- di -- te %49
+  fi -- li -- i, %50
+  plau -- di -- te
+  sub -- di -- ti,
+  or -- na -- te
+  can -- ti -- bus
+  vo -- %55
+  ta bis __
+  pu -- bli -- ca
+  Pa -- tris,
+  vo --
+  ta bis __ %60
+  pu -- bli -- ca
+  Pa -- tris,
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro %65
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te
+  pro -- vi -- de
+  re -- xit, %70
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu -- %75
+  en -- te
+
+  pro -- vi -- de,
+  pro -- vi -- de
+  re -- %80
+  xit.
+
+  Plau -- di -- te %85
+  fi -- li -- i,
+  plau -- di -- te
+  sub -- di -- ti,
+  or --
+  na -- te %90
+  can -- ti -- bus
+  vo -- ta
+  bis,
+  bis,
+  bis pu -- bli -- ca %95
+  Pa -- tris,
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam %100
+  coe -- lo tu --
+  en -- te
+
+  pro -- vi -- de,
+  pro -- vi -- de %105
+  re --
+  xit, coe -- lo tu --
+  en --
+  te
+  pro -- vi -- %110
+  de,
+  pro -- vi -- de
+  re --
+  _
+  xit, pro -- vi -- de %115
+  re --
+  xit, pro -- vi -- de
+  re --
+  xit.
+
+  ut %136
+  Pa -- ter
+  na -- tos
+  di -- li -- git,
+  sic Be -- da %140
+  Pa -- ter
+  spon -- sus
+  fra -- ter su --
+  sten -- tat
+  a -- mat %145
+  e -- ri --
+  git,
+  sic Be -- da
+  Pa -- ter,
+  sic Be -- da %150
+  spon -- sus,
+  sic Be -- da
+  fra -- ter
+  su --
+  sten -- tat %155
+  a -- mat
+  e -- ri --
+  git, sic
+  Pa -- ter su --
+  sten -- tat, %160
+  spon -- sus
+  a -- mat,
+  fra -- ter
+  e -- ri -- git,
+  e -- ri -- %165
+  git,
+  sic Be -- da
+  Pa -- ter,
+  sic Be -- da
+  spon -- sus, %170
+  sic Be -- da
+  fra -- ter
+  su --
+  sten -- tat
+  a -- mat %175
+  e -- ri --
+  git,
+  su --
+  sten --
+  tat %180
+  a -- mat
+  e --
+  _ ri --
+  git, sic
+  Be -- %185
+  da su --
+  sten --
+  tat
+  a --
+  mat %190
+  e --
+  ri --
+  git.
+
+  Plau -- di -- te %197
+  fi -- li -- i,
+  plau -- di -- te
+  sub -- di -- ti, %200
+  or -- na -- te
+  can -- ti -- bus
+  vo --
+  ta bis __
+  pu -- bli -- ca %205
+  Pa -- tris,
+  vo --
+  ta bis __
+  pu -- bli -- ca
+  Pa -- tris, %210
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu -- %215
+  en -- te
+  pro -- vi -- de
+  re -- xit,
+  Rud -- ber -- ti
+  fi -- li -- am %220
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te
+  %225
+  pro -- vi -- de,
+  pro -- vi -- de
+  re --
+  xit.
+
+  Plau -- di -- te %233
+  fi -- li -- i,
+  plau -- di -- te %235
+  sub -- di -- ti,
+  or --
+  na -- te
+  can -- ti -- bus
+  vo -- ta %240
+  bis,
+  bis,
+  bis pu -- bli -- ca
+  Pa -- tris,
+  Rud -- ber -- ti %245
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te %250
+
+  pro -- vi -- de,
+  pro -- vi -- de
+  re --
+  xit, coe -- lo tu -- %255
+  en --
+  te
+  pro -- vi --
+  de,
+  pro -- vi -- de %260
+  re --
+  _
+  xit, pro -- vi -- de
+  re --
+  xit, pro -- vi -- de %265
+  re --
+  xit. %267 finis
+}

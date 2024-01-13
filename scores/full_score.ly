@@ -418,57 +418,137 @@
   %     \midi { \tempo 4 = 70 } % 120
   %   }
   % }
+  % \bookpart {
+  %   \section "3.3" "Recitativo" "O quam placetis filii!"
+  %   \addTocLabel "OQuam"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OQuamViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OQuamViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OQuamViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Filia" "Petri" }
+  %           \new Voice = "Soli" { \dynamicUp \OQuamSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OQuamSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
+  %           % \transpose c c,
+  %           \OQuamCembalo
+  %         }
+  %       >>
+  %       \new FiguredBass { \OQuamBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "3.3" "Recitativo" "O quam placetis filii!"
-    \addTocLabel "OQuam"
-    \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-    }
+    \section "3.4" "Coro" "Chorus Populi"
+    \addTocLabel "Clangite"
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OQuamViolinoI
+              \ClangiteOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OQuamViolinoII
+              \ClangiteOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "D" "" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \ClangiteClarinoI \ClangiteClarinoII
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \ClangiteViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \ClangiteViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OQuamViola
+            \ClangiteViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Filia" "Petri" }
-            \new Voice = "Soli" { \dynamicUp \OQuamSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \ClangiteSoprano }
           }
-          \new Lyrics \lyricsto Soli \OQuamSoliLyrics
+          \new Lyrics \lyricsto Soprano \ClangiteSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \ClangiteAlto }
+          }
+          \new Lyrics \lyricsto Alto \ClangiteAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \ClangiteTenore }
+          }
+          \new Lyrics \lyricsto Tenore \ClangiteTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \ClangiteBasso }
+          }
+          \new Lyrics \lyricsto Basso \ClangiteBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "cemb" "b" }
             % \transpose c c,
-            \OQuamCembalo
+            \ClangiteCembalo
           }
         >>
-        \new FiguredBass { \OQuamBassFigures }
+        \new FiguredBass { \ClangiteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

@@ -818,3 +818,478 @@ NecAltoIILyrics = \lyricmode {
   no -- %215
   vat. %216 finis
 }
+
+ClangiteAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoClangite
+    R2.*12 %12
+    r4 \mvTr fis\fE^\tuttiE d8 fis
+    fis4. a8 a4
+    r a a8 a %15
+    a4. a8 a4
+    r fis g
+    a4. a8 a4
+    a2.
+    g2 g4 %20
+    e4. e8 e4
+    e d r
+    g2.
+    a4 a2
+    g4. e8 g4 %25
+    fis fis r
+    a a a
+    gis4. gis8 a4
+    a gis a
+    h4. h8 a4 %30
+    a2.
+    a2 a4
+    a2.
+    a
+    a4 a a %35
+    a2.
+    gis
+    a4 r r
+    R2.*4 %42
+    r4 a a8 a
+    a8. e16 e4 r
+    r a a8 a %45
+    a8. e16 e4 r
+    R2.*2
+    r4 fis d8 fis
+    fis4. a8 a4 %50
+    r a a8 a
+    a4. a8 a4
+    a fis g
+    a4. a8 a4
+    a2. %55
+    g4 g2
+    e4. e8 e4
+    e d r
+    g2.
+    a4 a2 %60
+    g4. e8 g4
+    fis fis r
+    fis fis fis
+    fis4. fis8 fis4
+    h h h %65
+    h4. h8 h4
+    a a a
+    a2 d,4
+    e4. e8 d4
+    d cis r %70
+    R2.
+    cis4 e d
+    cis8 a' a2
+    cis,4 e d
+    e8 a a2 %75
+    cis,4 e e
+    g8([ e)] e4 r
+    g4. fis8 e4
+    d8([ e fis d)] g e
+    d2( cis4) %80
+    d r r
+    R2.*3
+    r4 fis d8 fis %85
+    fis4. a8 fis4
+    r a a8 a
+    a4. a8 a4
+    r fis2
+    e e4 %90
+    fis4. fis8 fis4
+    g2 g4
+    a r r
+    h r r
+    a a h8 e, %95
+    e4 e r
+    R2.
+    cis4 e d
+    cis8 a' a2
+    cis,4 e d %100
+    e8 a a2
+    cis,4 e e
+    g8([ e)] e4 r
+    g4. fis8 e4
+    d8([ e fis d)] g e %105
+    d2( cis4)
+    d a' a8 a
+    h2.
+    a
+    g2~ g8 g %110
+    a2.
+    h4. h8 h4
+    a2.~
+    a
+    a4 a8([ fis)] h^\critnote fis %115
+    h2( g4)
+    fis a8([ fis)] h^\critnote fis
+    h2( g4)
+    fis r r
+    R2.*8 %127
+    \key g \major \mvTr d2.\pE^\FiliaPetri \noBreak
+    g2 h4
+    c( e,) fis %130
+    g8. d16 d4 r
+    R2.*8 %139
+    g4 g d %140
+    d fis r
+    fis a r
+    d,8([ fis)] g4 r8 g
+    g4 d r
+    g d r %145
+    r e g
+    d r r
+    fis fis g
+    d'( fis,) g
+    a fis g %150
+    d'( fis,) g
+    a fis g
+    d d2
+    d4 e fis
+    g2 g4 %155
+    e2 a4
+    h( g) d
+    d r r
+    a' a a8 a
+    a4 a r %160
+    a2 a4
+    a a r
+    a2 a4
+    a8. a16 a4 r
+    g2 h4 %165
+    d r r
+    fis, fis g
+    d'( fis,) g
+    a fis g
+    d'( fis,) g %170
+    a fis g
+    d d2
+    d4 e fis
+    g2 g4
+    e2 a4 %175
+    h( g) d
+    d r r
+    g2.
+    g
+    a %180
+    g4 d r
+    r g h
+    d d, d
+    d r d
+    cis2. %185
+    d4 r d
+    cis2.
+    d4 r r \noBreak
+    d2.
+    \key d \major cis4 r r \noBreak %190
+    gis'2.~
+    gis2 gis4
+    a r r
+    R2.*3 %196
+    r4 \mvTr fis\fE^\tutti d8 fis
+    fis4. a8 fis4
+    r a a8 a
+    a4. a8 a4 %200
+    a fis g
+    a4. a8 a4
+    a2.
+    g4 g2
+    e4. e8 e4 %205
+    e d r
+    g2.
+    a4 a2
+    g4. e8 g4
+    fis fis r %210
+    fis fis fis
+    fis4. fis8 fis4
+    h h h
+    h4. h8 h4
+    a a a %215
+    a2 d,4
+    e4. e8 d4
+    d cis r
+    R2.
+    cis4 e d %220
+    cis8 a' a2
+    cis,4 e d
+    e8 a a2
+    cis,4 e e
+    g8([ e)] e4 r %225
+    g4. fis8 e4
+    d8([ e fis d)] g e
+    d2( cis4)
+    d r r
+    R2.*3 %232
+    r4 fis d8 fis
+    fis4. a8 fis4
+    r a a8 a %235
+    a4. a8 a4
+    r fis2
+    e e4
+    fis4. fis8 fis4
+    g2 g4 %240
+    a r r
+    h r r
+    a a h8 e,
+    e4 e r
+    R2. %245
+    cis4 e d
+    cis8 a' a2
+    cis,4 e d
+    e8 a a2
+    cis,4 e e %250
+    g8([ e)] e4 r
+    g4. fis8 e4
+    d8([ e fis d)] g e
+    d2( cis4)
+    d a' a8 a %255
+    h2.
+    a
+    g2~ g8 g
+    a2.
+    h4. h8 h4 %260
+    a2.~
+    a
+    a4 a8([ fis)] h^\critnote fis
+    h2( g4)
+    fis a8([ fis)] h^\critnote fis %265
+    h2( g4)
+    fis4 r r
+    R2.*9 %276
+    R2.\fermata \bar "|." %277 finis
+  }
+}
+
+ClangiteAltoLyrics = \lyricmode {
+  Clan -- gi -- te %13
+  buc -- ci -- nis,
+  pro -- mi -- te %15
+  can -- ti -- bus
+  di -- gnis
+  lau -- di -- bus
+  fe --
+  sta bis %20
+  sex -- tu -- pla
+  Pa -- tris,
+  fe --
+  sta bis
+  sex -- tu -- pla %25
+  Pa -- tris,
+  qui pri -- mus
+  o -- mni -- um
+  hoc mo -- na --
+  ste -- ri -- um %30
+  ex
+  Be -- ne --
+  di --
+  cti
+  cu -- nis e -- %35
+  re --
+  _
+  xit.
+
+  Clan -- gi -- te %43
+  buc -- ci -- nis,
+  clan -- gi -- te %45
+  buc -- ci -- nis.
+
+  Plau -- di -- te %49
+  fi -- li -- i, %50
+  plau -- di -- te
+  sub -- di -- ti,
+  or -- na -- te
+  can -- ti -- bus
+  vo -- %55
+  ta bis
+  pu -- bli -- ca
+  Pa -- tris,
+  vo --
+  ta bis %60
+  pu -- bli -- ca
+  Pa -- tris,
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro %65
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te
+  pro -- vi -- de
+  re -- xit, %70
+
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam %75
+  coe -- lo tu --
+  en -- te
+  pro -- vi -- de,
+  pro -- vi -- de
+  re -- %80
+  xit.
+
+  Plau -- di -- te %85
+  fi -- li -- i,
+  plau -- di -- te
+  sub -- di -- ti,
+  or --
+  na -- te %90
+  can -- ti -- bus
+  vo -- ta
+  bis,
+  bis,
+  bis pu -- bli -- ca %95
+  Pa -- tris,
+
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro %100
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te
+  pro -- vi -- de,
+  pro -- vi -- de %105
+  re --
+  xit, coe -- lo tu --
+  en --
+  te
+  pro -- vi -- %110
+  de,
+  pro -- vi -- de
+  re --
+
+  xit, pro -- vi -- de %115
+  re --
+  xit, pro -- vi -- de
+  re --
+  xit.
+
+  Ut %128
+  spon -- sus
+  spon -- sam %130
+  de -- pe -- rit,
+
+  sic Be -- da %140
+  Pa -- ter
+  spon -- sus
+  fra -- ter su --
+  sten -- tat
+  a -- mat %145
+  e -- ri --
+  git,
+  sic Be -- da
+  Pa -- ter,
+  sic Be -- da %150
+  spon -- sus,
+  sic Be -- da
+  fra -- ter,
+  fra -- ter su --
+  sten -- tat %155
+  a -- mat
+  e -- ri --
+  git, sic
+  Pa -- ter su --
+  sten -- tat, %160
+  spon -- sus
+  a -- mat,
+  fra -- ter
+  e -- ri -- git,
+  e -- ri -- %165
+  git,
+  sic Be -- da
+  Pa -- ter,
+  sic Be -- da
+  spon -- sus, %170
+  sic Be -- da
+  fra -- ter,
+  fra -- ter su --
+  sten -- tat
+  a -- mat %175
+  e -- ri --
+  git,
+  su --
+  sten --
+  tat %180
+  a -- mat
+  e -- _
+  _ _ ri --
+  git, sic
+  Be -- %185
+  da su --
+  sten --
+  tat
+  a --
+  mat %190
+  e --
+  ri --
+  git.
+
+  Plau -- di -- te %197
+  fi -- li -- i,
+  plau -- di -- te
+  sub -- di -- ti, %200
+  or -- na -- te
+  can -- ti -- bus
+  vo --
+  ta bis
+  pu -- bli -- ca %205
+  Pa -- tris,
+  vo --
+  ta bis
+  pu -- bli -- ca
+  Pa -- tris, %210
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu -- %215
+  en -- te
+  pro -- vi -- de
+  re -- xit,
+
+  Rud -- ber -- ti %220
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu --
+  en -- te %225
+  pro -- vi -- de,
+  pro -- vi -- de
+  re --
+  xit.
+
+  Plau -- di -- te %233
+  fi -- li -- i,
+  plau -- di -- te %235
+  sub -- di -- ti,
+  or --
+  na -- te
+  can -- ti -- bus
+  vo -- ta %240
+  bis,
+  bis,
+  bis pu -- bli -- ca
+  Pa -- tris,
+  %245
+  Rud -- ber -- ti
+  fi -- li -- am
+  qui Pe -- tro
+  cre -- di -- tam
+  coe -- lo tu -- %250
+  en -- te
+  pro -- vi -- de,
+  pro -- vi -- de
+  re --
+  xit, coe -- lo tu -- %255
+  en --
+  te
+  pro -- vi --
+  de,
+  pro -- vi -- de %260
+  re --
+
+  xit, pro -- vi -- de
+  re --
+  xit, pro -- vi -- de %265
+  re --
+  xit. %267 finis
+}

@@ -32,6 +32,7 @@ tempoNec = \tempoMarkup "Andantino"
   tempoNecB = \tempoMarkup "Allegro · à 3 voci"
 tempoOQuam = \tempoMarkup "[Recitativo]"
   tempoOQuamB = \tempoMarkup "Andante"
+tempoClangite = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"
