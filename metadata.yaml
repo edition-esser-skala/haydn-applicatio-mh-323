@@ -14,7 +14,7 @@ sources:
     url: https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_32173
     license: public domain
     principal: true
-imslp:
+imslp: Applicatio,_MH_323_(Haydn,_Michael)
 parts:
-  cor12: Corno I, II in \flat B basso/\flat E/G/A
+  cor12: Corno I, II in \flat B\ basso/\flat E/G/A
   clno12: Clarino I, II in D

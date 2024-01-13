@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "cemb")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,9 +12,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
+          \set Staff.instrumentName = "Cembalo"
           \CanticumCembalo
         }
+        \new FiguredBass { \CanticumBassFigures }
       >>
     }
   }
@@ -32,6 +33,7 @@
           \new Lyrics \lyricsto Soli \IamScenaSoliLyrics
         >>
         \new Staff { \IamScenaCembalo }
+        \new FiguredBass { \IamScenaBassFigures }
       >>
     }
   }
@@ -41,6 +43,7 @@
     \score {
       <<
         \new Staff { \AdesteCembalo }
+        \new FiguredBass { \AdesteBassFigures }
       >>
     }
   }
@@ -50,6 +53,7 @@
     \score {
       <<
         \new Staff { \LaudateCembalo }
+        \new FiguredBass { \LaudateBassFigures }
       >>
     }
   }
@@ -67,6 +71,7 @@
           \new Lyrics \lyricsto Soli \DilectaSoliLyrics
         >>
         \new Staff { \DilectaCembalo }
+        \new FiguredBass { \DilectaBassFigures }
       >>
     }
   }
@@ -76,6 +81,7 @@
     \score {
       <<
         \new Staff { \NecCembalo }
+        \new FiguredBass { \NecBassFigures }
       >>
     }
   }
@@ -93,6 +99,7 @@
           \new Lyrics \lyricsto Soli \OQuamSoliLyrics
         >>
         \new Staff { \OQuamCembalo }
+        \new FiguredBass { \OQuamBassFigures }
       >>
     }
   }
@@ -102,6 +109,7 @@
     \score {
       <<
         \new Staff { \ClangiteCembalo }
+        \new FiguredBass { \ClangiteBassFigures }
       >>
     }
   }

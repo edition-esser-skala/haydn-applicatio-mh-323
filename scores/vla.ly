@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \CanticumCembalo
+          \set Staff.instrumentName = "Viola"
+          \CanticumViola
         }
       >>
     }
@@ -31,7 +31,7 @@
           }
           \new Lyrics \lyricsto Soli \IamScenaSoliLyrics
         >>
-        \new Staff { \IamScenaCembalo }
+        \new Staff { \IamScenaViola }
       >>
     }
   }
@@ -40,7 +40,7 @@
     \addTocLabel "Adeste"
     \score {
       <<
-        \new Staff { \AdesteCembalo }
+        \new Staff { \AdesteViola }
       >>
     }
   }
@@ -49,7 +49,7 @@
     \addTocLabel "Laudate"
     \score {
       <<
-        \new Staff { \LaudateCembalo }
+        \new Staff { \LaudateViola }
       >>
     }
   }
@@ -66,7 +66,7 @@
           }
           \new Lyrics \lyricsto Soli \DilectaSoliLyrics
         >>
-        \new Staff { \DilectaCembalo }
+        \new Staff { \DilectaViola }
       >>
     }
   }
@@ -75,7 +75,7 @@
     \addTocLabel "Nec"
     \score {
       <<
-        \new Staff { \NecCembalo }
+        \new Staff { \NecViola }
       >>
     }
   }
@@ -92,7 +92,7 @@
           }
           \new Lyrics \lyricsto Soli \OQuamSoliLyrics
         >>
-        \new Staff { \OQuamCembalo }
+        \new Staff { \OQuamViola }
       >>
     }
   }
@@ -101,7 +101,7 @@
     \addTocLabel "Clangite"
     \score {
       <<
-        \new Staff { \ClangiteCembalo }
+        \new Staff { \ClangiteViola }
       >>
     }
   }
